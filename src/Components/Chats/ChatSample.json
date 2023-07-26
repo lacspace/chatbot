@@ -1,0 +1,200 @@
+{
+  "responses": [
+    {
+      "query": "Hi,, Hii, Hy, hy, hi, hii, Hello, hello, Hlw, hlw, Hlo, hlo, hay, hey, hai, hei, Greetings, Greeting, Greetings!, Greeting!, greeting, greetings",
+      "answer": "Hello! How can I assist you today? Feel free to ask any questions or seek guidance on your journey."
+    },
+    {
+      "query": "Ha ha ha ha, Hahahaha, ha ha ha, Ha ha ha, ha ha, haha, Haha, Hehe, hehe, hehehe, Hehehe",
+      "answer": "I'm glad you found it amusing! If you have any more questions or need further assistance, feel free to ask. I'm here to help!"
+    },
+    {
+      "query": "Who are you?, who are you?, Who are you, who are you, Who're you?, who're you?, Who're you, who're you",
+      "answer": "I'm a chatbot, programmed to assist you about stock market and our company."
+    },
+    {
+      "query": "Let's chat, let's chat, lets chat, Lets chat",
+      "answer": "Of course! I'm here to chat with you. Let's talk about stock market. Type stock market to go ahead."
+    },
+    {
+      "query": "What is your age?, What is your age, what is your age, your age, Your age, your age?, Your age?",
+      "answer": "I'm 27 years old."
+    },
+    {
+      "query": "Who developed you?, Who is you developer, Who is you developer, your developer, you developer, Your developer, Your developer?, Who developed you, who developed you, Where  were you developed, Which company developed you, which company developed you, Whom developed you, Who develope you, Who develope you?, who develope you, who develope you.",
+      "answer": "I'm developed by Chandan Karna at Growth Securities."
+    },
+    {
+      "query": "Can you calculate?, can you calculate?, Do you know calculations, Can you calculate, can you calculate",
+      "answer": "Yes, I can calculate. Try asking 1+1, 1-1, 1*1, 1/1 or something else and if you want more complex calculations like SIP, Lumpsum, CGAR or something else then visit our page growthsec.com/growth-calculators"
+    },
+    {
+      "query": "Stock Market, stock market, Stock market, Share market, Share Market, share market, What is share market, what is share market,  Define stock market, What is stock market?, What's stock market, Whats stock market, what's stock market, whats stock market",
+      "answer": "Certainly! Let's talk about the stock market. What specific aspects or questions do you have about it? Whether you're interested in understanding the basics, discussing investment strategies, or exploring specific stocks or trends, feel free to let me know and we can delve into the topic together."
+    },
+    {
+      "query": "Great thanks, Awesome, awesome, Nice, nice, wow awesome, Wow awesome, wow nice, Wow nice, Very Good, Very good, very good, great thanks, great thank you, great replay, great, great job, Great job, Great Job, Great, just wow, ok, okay, Okay, Ok, Just wow, Wow, wow, great thanks to you, Great Thanks to You, Great Thanks, Great thanks",
+      "answer": "I'm glad you're satisfied! If you have any more questions or need further assistance in the future, feel free to reach out. Have a great day!"
+    },
+    {
+      "query": "bye bye, by by, good bye, goodby, godbye, Goodbye, gudby, gudbye, goodbye, bii, byy, bey, by, bye",
+      "answer": "Goodbye! If you have any more questions in the future, feel free to ask. Have a great day!"
+    },
+    {
+      "query": "Thank You, thank you, Thank you, Thanku, thanku, thnku, thanks, Thanks you, thnks you",
+      "answer": "You're very welcome! I'm always here to assist you. If you have any more questions in the future, don't hesitate to ask. Good luck with your project, and have a great day!"
+    },
+    {
+      "query": "How are you, how are you, Hw r u, hw r u, how are you?, How are you?, How do you do?, how do you do",
+      "answer": "I'm a chatbot. I don't have feelings, but thanks for asking!"
+    },
+    {
+      "query": "What's happening?, What's going on?, Any news?, What's the latest?, What's up, whats up, what's up",
+      "answer": "There are various things happening. Can you be more specific about what you'd like to know?"
+    },
+    {
+      "query": "What is your name?, What is you name?, What should I call you?, Who are you?",
+      "answer": "I am a Growth chatbot. You can call me Growth."
+    },
+    {
+      "query": "Hey Growth, hey Growth, Hi Growth, Hello Growth, hello Growth, hi Growth",
+      "answer": "Hello! How can I assist you today? Feel free to ask any questions or seek guidance on your journey."
+    },
+    {
+      "query": "Tell me a joke, Can you tell me something funny?, any joke, can you joke",
+      "answer": "Sure! Here's a joke: Why don't scientists trust atoms? Because they make up everything!"
+    },
+    {
+      "query": "How can I contact customer support?, can you help me, can you support me, support me, Support me, How do I reach out for help?, I need help, i need help, mobile number, email adderess, email support, email id, help id, support id, support number, helpline number, need support, need help, help, support, help me",
+      "answer": "Yes! You can contact our customer support team by calling our helpline at 011-431-40000 or by sending an email to support@growthsec.com."
+    },
+    {
+      "query": "How to create ticket, how to create ticket, how to create a ticket, How to create a ticket, create ticket, Create ticket, Create Ticket",
+      "answer": "To create ticket visit our page growthsec.com/ticket, fill all required details and submit the form your ticket will be created. But remember to create a ticket, please ensure that all your details are filled correctly and accurately in this form. Any mismatched information may result in your ticket being rejected. Thank you for your cooperation."
+    },
+    {
+      "query": "What is the weather today?, How's the weather outside?, weather outside",
+      "answer": "I'm sorry, but I don't have access to real-time weather information. You can check the weather using a weather app or website."
+    },
+    {
+      "query": "What's your favorite color?, Do you have a favorite color?, favorite color, favorite color?, Your favorite color, your favorite color, your favorite color?",
+      "answer": "As a chatbot, I don't have personal preferences, including a favorite color."
+    },
+    {
+      "query": "What is the meaning of life?, Why are we here?",
+      "answer": "The meaning of life is subjective and can vary from person to person. It's a deep philosophical question that has been pondered by many throughout history."
+    },
+    {
+      "query": "How can I improve my skills?, improve my skills, Any tips for personal growth?",
+      "answer": "To improve your skills and achieve personal growth, consider setting specific goals, seeking learning opportunities, practicing regularly, seeking feedback from others, and staying persistent."
+    },
+    {
+      "query": "What's your favorite book?, Can you recommend a book to read?",
+      "answer": "As the Growth chatbot, I don't have personal preferences, including a favorite book. However, I can recommend popular books in various genres if you'd like."
+    },
+    {
+      "query": "What's the capital of [country name]?, Tell me about [country name]",
+      "answer": "The capital of [country name] is [capital]. [Additional information about the country]."
+    },
+    {
+      "query": "How can I stay motivated?, Any tips for staying motivated?",
+      "answer": "To stay motivated, it helps to set clear goals, break them down into smaller tasks, find inspiration, maintain a positive mindset, and celebrate your progress."
+    },
+    {
+      "query": "What's the best way to relax?, How can I relieve stress?",
+      "answer": "There are various ways to relax and relieve stress, such as practicing mindfulness or meditation, engaging in physical activity, spending time in nature, pursuing hobbies and interests, or listening to soothing music."
+    },
+    {
+      "query": "Can you recommend a good restaurant nearby?, Where should I go for dinner?",
+      "answer": "I'm sorry, but I don't have access to real-time restaurant information. You can use online review platforms or ask locals for recommendations."
+    },
+    {
+      "query": "How can I improve my productivity?, Any tips for being more productive?",
+      "answer": "To improve productivity, consider prioritizing tasks, breaking them into smaller steps, minimizing distractions, managing time effectively, and maintaining a healthy work-life balance."
+    },
+    {
+      "query": "Can you help me with my homework?, I need assistance with my assignments",
+      "answer": "I can certainly try to help you with your homework. Please provide me with specific questions or problems, and I'll do my best to assist you."
+    },
+    {
+      "query": "How are you feeling?, How are you feeling, do you have feeling, do you've feeling, do you feel, can you feel, How do you feel today?, What's your mood?",
+      "answer": "I'm a chatbot, I don't have feelings, but thanks for asking!"
+    },
+    {
+      "query": "What's your plan today?, your plan today, do you have any plan today, any plan today, What are you up to today?",
+      "answer": "As a chatbot, my main purpose is to assist and provide information. I'm always here to help you!"
+    },
+    {
+      "query": "Are you single?, Do you have a partner?, Are you in a relationship?",
+      "answer": "As the Growth chatbot, I don't have personal relationships. My focus is on assisting users like you."
+    },
+    {
+      "query": "Do you have a girlfriend?, do you have a gf, do you have a girlfriend, Are you dating someone?, dating someone, dating someone?",
+      "answer": "As the Growth chatbot, I don't have personal relationships. My purpose is to provide information and support."
+    },
+    {
+      "query": "Which movie do you like?, Do you have a favorite movie?",
+      "answer": "As the Growth chatbot, I don't have personal preferences, including a favorite movie. However, I can provide movie recommendations based on your preferences."
+    },
+    {
+      "query": "What's your favorite color?, favorite color, favorite color? Do you have a favorite color?",
+      "answer": "As the Growth chatbot, I don't have personal preferences, including a favorite color, but my theme color is #269ed6 (Steel Blue)"
+    },
+    {
+      "query": "What's your favorite food?, favorite food, Do you have a favorite cuisine?",
+      "answer": "As the Growth chatbot, I don't have personal preferences when it comes to food. However, I can provide recommendations based on popular cuisines."
+    },
+    {
+      "query": "What's your favorite book?, favorite book, favorite books, Can you recommend a book to read?",
+      "answer": "As the Growth chatbot, I don't have personal preferences, including a favorite book. However, I can recommend popular books in various genres if you'd like."
+    },
+    {
+      "query": "What's the meaning of life?, meaning of life, What's meaning of life, Why are we here?",
+      "answer": "The meaning of life is subjective and can vary from person to person. It's a deep philosophical question that has been pondered by many throughout history."
+    },
+    {
+      "query": "How can I improve my skills?, improve my skills, Can you improve my skills, Any tips for personal growth?",
+      "answer": "To improve your skills and achieve personal growth, consider setting specific goals, seeking learning opportunities, practicing regularly, seeking feedback from others, and staying persistent."
+    },
+    {
+      "query": "How can I stay motivated?, stay motivated, Any tips for staying motivated?",
+      "answer": "To stay motivated, it helps to set clear goals, break them down into smaller tasks, find inspiration, maintain a positive mindset, and celebrate your progress."
+    },
+    {
+      "query": "What's the best way to relax?, best way to relax, How can I relieve stress?",
+      "answer": "There are various ways to relax and relieve stress, such as practicing mindfulness or meditation, engaging in physical activity, spending time in nature, pursuing hobbies and interests, or listening to soothing music."
+    },
+    {
+      "query": "Can you recommend a good restaurant nearby?, good restaurant nearby, restaurant nearby, Where should I go for dinner?",
+      "answer": "I'm sorry, but I don't have access to real-time restaurant information. You can use online review platforms or ask locals for recommendations."
+    },
+    {
+      "query": "What's the meaning of love?, meaning of love, meaning of love live, Can you define love?, love, what's love, what is love, define love, explain love",
+      "answer": "Love is a complex and multifaceted emotion that can be experienced and expressed in various ways. It generally refers to a deep affection, attachment, or care for someone or something. Love encompasses feelings of warmth, tenderness, compassion, and a desire for the well-being and happiness of the loved one."
+    },
+    {
+      "query": "How can I improve my productivity?, improve my productivity, Any tips for being more productive?",
+      "answer": "To improve productivity, consider prioritizing tasks, breaking them into smaller steps, minimizing distractions, managing time effectively, and maintaining a healthy work-life balance."
+    },
+    {
+      "query": "Can you help me with my homework?, help me with my homework, I need assistance with my assignments",
+      "answer": "I can certainly try to help you with your homework. Please provide me with specific questions or problems, and I'll do my best to assist you."
+    },
+    {
+      "query": "What's your favorite hobby?, Hobby, hobby, favorite hobby, your hobby, Do you have any hobbies?",
+      "answer": "As the Growth chatbot, I don't have personal hobbies. My purpose is to provide information and support to users like you."
+    },
+    {
+      "query": "What's your dream?, your dream, your aspirations, Do you have any dreams or aspirations?",
+      "answer": "As the Growth chatbot, I don't have personal dreams or aspirations. My goal is to assist users and provide helpful information."
+    },
+    {
+      "query": "What's your favorite music?, Do you have a favorite genre of music?, any favorite music, music lover",
+      "answer": "As the Growth chatbot, I don't have personal music preferences. By the way, thank you for asking."
+    },
+    {
+      "query": "What's your favorite sport?, Do you enjoy watching sports?, favorite sport, sport lover? do you like sport",
+      "answer": "As the Growth chatbot, I don't have personal preferences when it comes to sports. By the way, thank you for asking."
+    }
+  ]
+}

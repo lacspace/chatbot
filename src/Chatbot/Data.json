@@ -1,0 +1,175 @@
+{
+  "responses": [
+    {
+      "query": "Hi, hi, Hello, hello, Hlw, hlw, Hlo, hlo",
+      "answer": "Hi! How can I help you."
+    },
+    {
+      "query": "How are you, how are you, Hw r u, hw r u, how are you?, How are you?, How do you do?, how do you do",
+      "answer": "I'm a chatbot. I don't have feelings, but thanks for asking!"
+    },
+    {
+      "query": "What is the current stock price of TATA Consultancy Services (TCS)?",
+      "answer": "The current stock price of TCS is Rs X."
+    },
+    {
+      "query": "How can I invest in the stock market?, invest in stock market",
+      "answer": "To invest in the stock market, you need to open a demat and trading account with a registered stockbroker."
+    },
+    {
+      "query": "What are the top stocks to invest in right now?, top stocks to invest",
+      "answer": "The top stocks to invest in right now vary based on market conditions. It's recommended to do thorough research or consult a financial advisor."
+    },
+    {
+      "query": "What is the difference between the BSE and NSE?, NSE vs BSE",
+      "answer": "The BSE (Bombay Stock Exchange) and NSE (National Stock Exchange) are the two major stock exchanges in India. They differ in terms of ownership, trading platform, and index calculation methodology."
+    },
+    {
+      "query": "How does the stock market work?, how stock market works",
+      "answer": "The stock market is a platform where buyers and sellers trade shares of publicly listed companies. Prices are determined by supply and demand."
+    },
+    {
+      "query": "What is the Sensex?, sensex, Sensex",
+      "answer": "The Sensex is an index of the top 30 companies listed on the BSE. It represents the overall performance of the Indian stock market."
+    },
+    {
+      "query": "What is the Nifty 50?, nifty 50, Nifty 50, nifty50, Nifty50",
+      "answer": "The Nifty 50 is an index of the top 50 companies listed on the NSE. It is used as a benchmark for the Indian equity market."
+    },
+    {
+      "query": "What is intraday trading?",
+      "answer": "Intraday trading refers to buying and selling stocks within the same trading day. Traders aim to take advantage of short-term price movements."
+    },
+    {
+      "query": "What is a stockbroker?",
+      "answer": "A stockbroker is a registered professional or firm that facilitates buying and selling of stocks on behalf of investors."
+    },
+    {
+      "query": "What is a stock index?",
+      "answer": "A stock index is a measure of the performance of a specific group of stocks representing a particular market or sector."
+    },
+    {
+      "query": "What is the role of SEBI in the stock market?",
+      "answer": "SEBI (Securities and Exchange Board of India) is the regulatory body that oversees the functioning of the securities market in India."
+    },
+    {
+      "query": "What is the difference between a bull market and a bear market?",
+      "answer": "A bull market is characterized by rising stock prices and investor optimism, while a bear market is marked by falling prices and pessimism."
+    },
+    {
+      "query": "What is a dividend?",
+      "answer": "A dividend is a portion of a company's earnings distributed to its shareholders as a return on their investment."
+    },
+    {
+      "query": "What is a blue-chip stock?",
+      "answer": "A blue-chip stock refers to shares of a large, well-established, and financially stable company with a history of reliable performance."
+    },
+    {
+      "query": "What is an IPO?",
+      "answer": "An IPO (Initial Public Offering) is the process through which a company offers its shares to the public for the first time."
+    },
+    {
+      "query": "What is market capitalization?"
+    },
+    {
+      "query": "What is market capitalization?",
+      "answer": "Market capitalization is the total value of a company's outstanding shares of stock. It is calculated by multiplying the current stock price by the total number of shares."
+    },
+    {
+      "query": "What is a stock split?",
+      "answer": "A stock split is a corporate action in which a company divides its existing shares into multiple shares. The purpose is to increase liquidity and make the shares more affordable."
+    },
+    {
+      "query": "What is insider trading?",
+      "answer": "Insider trading refers to the buying or selling of stocks based on non-public, material information about the company. It is illegal and unethical."
+    },
+    {
+      "query": "What is a stop-loss order?",
+      "answer": "A stop-loss order is a type of order placed by an investor to automatically sell a stock if it reaches a specific price, limiting potential losses."
+    },
+    {
+      "query": "What is a market order?",
+      "answer": "A market order is an order to buy or sell a stock at the prevailing market price. It guarantees execution but does not specify the price."
+    },
+    {
+      "query": "What is a limit order?",
+      "answer": "A limit order is an order to buy or sell a stock at a specific price or better. It ensures the desired price but does not guarantee execution."
+    },
+    {
+      "query": "What is a circuit breaker?",
+      "answer": "A circuit breaker is a mechanism used by stock exchanges to temporarily halt trading during periods of extreme volatility to prevent panic selling or buying."
+    },
+    {
+      "query": "What are derivatives?",
+      "answer": "Derivatives are financial instruments whose value is derived from an underlying asset, such as stocks, bonds, commodities, or currencies."
+    },
+    {
+      "query": "What is technical analysis?",
+      "answer": "Technical analysis is a method of evaluating stocks and predicting price movements by analyzing historical market data, such as price and volume."
+    },
+    {
+      "query": "What is fundamental analysis?",
+      "answer": "Fundamental analysis is a method of evaluating stocks by analyzing a company's financial statements, industry trends, and other factors to determine its intrinsic value."
+    },
+    {
+      "query": "What is the P/E ratio?",
+      "answer": "The P/E ratio (Price-to-Earnings ratio) is a valuation ratio that compares a company's stock price to its earnings per share. It helps investors assess the company's relative value."
+    },
+    {
+      "query": "What is a dividend yield?",
+      "answer": "Dividend yield is a financial ratio that indicates the percentage return on a stock based on the dividend paid by the company relative to its stock price."
+    },
+    {
+      "query": "What is a stock exchange index?",
+      "answer": "A stock exchange index is a statistical measure that reflects the performance of a specific group of stocks listed on a particular stock exchange."
+    },
+    {
+      "query": "What are blue-chip stocks?",
+      "answer": "Blue-chip stocks are shares of well-established companies with a history of stable earnings, reliable performance, and a reputation for quality and financial stability."
+    },
+    {
+      "query": "What is a bear market?",
+      "answer": "A bear market is a period of declining stock prices, typically accompanied by widespread pessimism among investors and a negative economic outlook."
+    },
+    {
+      "query": "What is a bear market?",
+      "answer": "A bear market is a period of declining stock prices, typically accompanied by widespread pessimism among investors and a negative economic outlook."
+    },
+    {
+      "query": "What is a bull market?, bull market",
+      "answer": "A bull market is a period of rising stock prices, typically accompanied by investor optimism and a positive economic outlook."
+    },
+    {
+      "query": "What is a stock portfolio?",
+      "answer": "A stock portfolio refers to a collection of stocks and other investments held by an individual or institution."
+    },
+    {
+      "query": "What is stock volatility?",
+      "answer": "Stock volatility refers to the rate at which a stock price fluctuates. Higher volatility indicates greater price fluctuations and potential risks."
+    },
+    {
+      "query": "What is a stock exchange?",
+      "answer": "A stock exchange is a marketplace where buyers and sellers trade stocks and other securities. Examples include BSE and NSE in India."
+    },
+    {
+      "query": "What is the role of SEBI in the Indian stock market?",
+      "answer": "SEBI (Securities and Exchange Board of India) is the regulatory authority that oversees the functioning and development of the securities market in India."
+    },
+    {
+      "query": "What is the role of a stock market index?",
+      "answer": "A stock market index serves as a benchmark to track the performance of a specific group of stocks or the overall market."
+    },
+    {
+      "query": "What is a stock split?, stock split",
+      "answer": "A stock split is a corporate action where a company divides its existing shares into multiple shares. It increases the number of shares in circulation while reducing the price per share."
+    },
+    {
+      "query": "What is the role of a stockbroker?",
+      "answer": "A stockbroker is a licensed professional or firm that facilitates the buying and selling of stocks on behalf of investors in exchange for a fee or commission."
+    },
+    {
+      "query": "What is a stock market index?, market index",
+      "answer": "A stock market index is a statistical measure that represents the performance of a specific group of stocks in a particular market."
+    }
+  ]
+}
