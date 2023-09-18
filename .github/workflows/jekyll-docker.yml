@@ -1,0 +1,34 @@
+name: Jekyll site CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2 # Use the latest version of actions/checkout
+
+      - name: Set up Ruby and Bundler
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7 # Adjust to your preferred Ruby version
+
+      - name: Install Dependencies
+        run: |
+          gem install bundler
+          bundle install
+        working-directory: ./docs # Adjust to match your project structure
+
+      - name: Build Jekyll Site
+        run: |
+          bundle exec jekyll build
+        working-directory: ./docs # Adjust to match your project structure
