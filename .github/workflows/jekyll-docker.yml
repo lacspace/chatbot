@@ -15,20 +15,20 @@ jobs:
 
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v2 # Use the latest version of actions/checkout
+        uses: actions/checkout@v2
 
       - name: Set up Ruby and Bundler
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7 # Adjust to your preferred Ruby version
+          ruby-version: 2.7
 
       - name: Install Dependencies
         run: |
           gem install bundler
           bundle install
-        working-directory: ./docs # Adjust to match your project structure
+        working-directory: ./ # Update to the root directory of your repository
 
       - name: Build Jekyll Site
         run: |
           bundle exec jekyll build
-        working-directory: ./docs # Adjust to match your project structure
+        working-directory: ./ # Update to the root directory of your repository
