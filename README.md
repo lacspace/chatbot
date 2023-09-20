@@ -33,7 +33,7 @@ We welcome contributions to this chatbot project. If you'd like to add new featu
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](/LICENCE) file for details.
 
 ---
 
