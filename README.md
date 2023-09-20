@@ -1,4 +1,4 @@
-# Growth Securities Chatbot
+# Growth Chatbot
 
 Welcome to the Growth Securities Chatbot project! This chatbot is designed to provide a seamless conversational experience and offer information related to the stock market, the company, and creative conversations. Whether you're a user interested in financial insights or simply looking for a friendly chat, our chatbot has you covered.
 
