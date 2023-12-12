@@ -1,0 +1,374 @@
+[
+  {
+    "id": "Account Opening Queries",
+    "name": "Account Opening Queries",
+    "subOptions": [
+      {
+        "id": "Online Account Opening Query",
+        "name": "Online Account Opening Query",
+        "response": "Great! To open an account online, please follow these steps:\n1. Visit our website at kyc.growthsec.com\n2. Fill out the online application form with your personal details.\n4. Upload the required documents, such as ID proof and address proof.\n5. Review the information and submit the application.\n6. Once submitted, our team will process your application and get in touch with you."
+      },
+      {
+        "id": "Offline Account Opening:",
+        "name": "Offline Account Opening Query",
+        "response": "For offline account opening, you can visit our office. To find complete guide like contact number and address link then then please visit web address growthsec.com/contact. Our customer service representatives will guide you through the account opening process and assist with the necessary paperwork."
+      }
+    ]
+  },
+  {
+    "id": "Basic Queries",
+    "name": "Basic Queries",
+    "subOptions": [
+      {
+        "id": "How can I create a ticket?",
+        "name": "How can I create a ticket?",
+        "response": "To create a ticket you can visit our ticket page at growthsec.com/ticket"
+      },
+      {
+        "id": "What is power of attorney (PoA) and why is it needed?",
+        "name": "What is power of attorney (PoA) and why is it needed?",
+        "response": "PoA is a document which gives us the authorization to debit your shares from your DEMAT account whenever you sell your shares. If you have not submitted the PoA form, you will not be able to see the shares you have purchased under holdings. You will also not be able to sell them. If you have sent us your POA to our office, it generally takes us between 48-72 working hours for it to be linked to your account after receiving it. You could send us the PoA to the address mentioned below: Growth Securities, 2nd floor 4/10, Asaf Ali Road, New Delhi-110002"
+      },
+      {
+        "id": "What is in person verification and why is it needed?",
+        "name": "What is in person verification and why is it needed?",
+        "response": "All brokers are required to carry out an IPV process for all clients. IPV or In-person verification as the name suggests is a process where the broker verifies the client and his documents in person, as per the Circular set by SEBI. It is compulsory for every client to go through the IPV before opening a Trading and a DEMAT Account. IPV in the past used to be done physically where an employee of the broker would visit and verify. IPV can be done through two methods as of now. You can either upload a selfie with a client or sign on the IPV form."
+      },
+      {
+        "id": "How do I know when my account is open, how long does it take?",
+        "name": "How do I know when my account is open, how long does it take?",
+        "response": "If you have applied for opening an account with Growth and sent across your application, it generally takes 24 - 48 working hours for your account to be activated. Any discrepancies in the submitted forms or documents would delay the account opening process. Once your account has been opened, you would receive a welcome email to your registered email address, with your client ID/login ID and password."
+      },
+      {
+        "id": "Where can I find the POA (Power of attorney)?",
+        "name": "Where can I find the POA (Power of attorney)?",
+        "response": "You can ask your Sales manager to arrange a poa for you."
+      },
+      {
+        "id": "Will I be eligible for the benefits of corporate actions in stocks that I have sold on the ex-date?",
+        "name": "Will I be eligible for the benefits of corporate actions in stocks that I have sold on the ex-date?",
+        "response": "To be eligible for Corporate actions (dividend, bonus, splits, buybacks, mergers, amalgamation etc.) the shares must be in your name on the record date. This means that, if you sell stocks on the ex-date you are eligible for the benefits of the corporate action. However, on the record date, since the shares will still be lying in our pool Demat account (as settlement takes 2 days to complete). So, the benefits of the corporate action will be given to us which we will pass on to you. 1. Dividends will be credited to our bank account, which we will credit to your trading account. 2. Shares from Bonus, Splits, Mergers Acquisition will be credited to our pool account, which we will transfer to your trading account. If the bonus or split ratio is uneven, cash settlement will be done. For example, if the ratio is 2:3, and you have 25 shares, youll get 72 shares and the balance in cash. Note: You will not be eligible to participate in buyback/takeovers if you have sold shares on the ex-date."
+      },
+      {
+        "id": "What is an FPO i.e follow on public offering?",
+        "name": "What is an FPO i.e follow on public offering?",
+        "response": "A follow-on public offer (FPO) is an issuing of shares to investors by a public company that is already listed on an exchange. An FPO is essentially a stock issue of supplementary shares made by a company that is already publicly listed and has gone through the IPO process. FPOs are popular methods for companies to raise additional equity capital in the capital markets through a stock issue."
+      },
+      {
+        "id": "What is a Bonus issue?",
+        "name": "What is a Bonus issue?",
+        "response": "You will be eligible for bonus shares If youve purchased the stocks before the ex-date. If youve purchased the shares on or after the ex-date, you will not be eligible for the dividend"
+      },
+      {
+        "id": "What are dividends?",
+        "name": "What are dividends?",
+        "response": "A dividend is a payment made by a corporation to its shareholders. If youre a shareholder, you can think of a dividend as your share of the companys profits. You will be eligible for dividends If youve purchased the stocks before the ex-date. If youve purchased the shares on or after the ex-date, you will not be eligible for the dividend."
+      },
+      {
+        "id": "What is a Rights issue?",
+        "name": "What is a Rights issue?",
+        "response": "A rights offering is a right offered to existing shareholders to purchase additional shares, in proportion to their existing holdings. The Rights issue price will always be at a lesser price than the current market price of the stock. The reasons for the rights issue is generally to raise funds to Pay off debt, Purchase of assets to the business and acquiring another company etc."
+      },
+      {
+        "id": "What is a stock split?",
+        "name": "What is a stock split?",
+        "response": "A stock split is a corporate action in which a company divides its existing shares into multiple shares to boost the liquidity of the shares. Although the number of shares outstanding increases by a specific multiple, the total value of the shares remains the same compared to pre-split amounts, because the split does not add any real value."
+      },
+      {
+        "id": "How can I contact for help?",
+        "name": "How can I contact for help?",
+        "response": "You can visit our page growthsec.com/support and find your solution."
+      },
+      {
+        "id": "Do Growth provide calculators?",
+        "name": "Do Growth provide calculators?",
+        "response": "Yes Growth provide 16+ calculators, where you can find SIP, Lumpsum, CAGR and more"
+      }
+    ]
+  },
+  {
+    "id": "Miscellaneous Queries",
+    "name": "Miscellaneous Queries",
+    "subOptions": [
+      {
+        "id": "How do I add a nominee to my Growth DEMAT account?",
+        "name": "How do I add a nominee to my Growth DEMAT account?",
+        "response": "In case an individual is opening an account using the online process, it would be assumed that the individual has temporarily chosen to not nominate a nominee. In case the individual wishes to nominate a person, he or she would have to fill out a Nomination Form and courier it to our head office address, after which we will have it added. Sending an identification proof of the nominee along with the form is optional."
+      },
+      {
+        "id": "How do I enable futures and options for equity and currency?",
+        "name": "How do I enable futures and options for equity and currency?",
+        "response": "If you are opening your account and wants to apply for Futures and Options activation during the account opening, just submit your income proof will suffice for the segment activation. If you have not applied for futures options while opening your account, to enable this segment, you will need to submit an online request through kyc.growthsec.com/ along with your Income proof - Anyone of the below documents will suffice as income proof:- A segment addition form along with one of the following need to be submitted for activation of new segment 1. Bank account statement for last 6 months 2. Latest salary slip 3. Copy of ITR acknowledgment 4. Copy of Form 16 in case of salary income 5. Net worth Certificate 6. Statement of Demat holdings. Do note that the proof must contain the logo/seal of the concerned authority. Once the income proof has been submitted, the FO segment will be activated in 24 hours after submitting proof along with the online request during working days. It might take longer in case of weekends or holidays."
+      },
+      {
+        "id": "What is my Demat account number?",
+        "name": "What is my Demat account number?",
+        "response": "Your dp id + client id is your demat account number. You check it yourself by login into your backoffice. You can select global report to see your entire demat account number. Link to your back office: http://backoffice.growthsec.in:2022/"
+      },
+      {
+        "id": "What is the CMR copy and where can I get it?",
+        "name": "What is the CMR copy and where can I get it?",
+        "response": "CMR - Client Master report is a certificate with regards to your DEMAT account given by the depository with your information such as name, address, DOB, bank account, nominations etc. This is useful in mapping the DEMAT accounts with trading accounts also for off-market transfer of shares. You need to mail us at Complaints@growthsec.in in order to get the same. Note: 1. Digitally signed CMR copy is valid at the time of transmission of securities and for shifting/closure of a DEMAT account to expedite the transfer of securities. 2. In case the digitally signed Client Master Report (CMR) is not accepted by the other broker you can request us to provide the physically signed/stamped CMR to you. Raise a ticket below and mention your registered address, and we will dispatch the hard copy of the stamped CMR."
+      }
+    ]
+  },
+  {
+    "id": "Corporate Account Opening Queries",
+    "name": "Corporate Account Opening Queries",
+    "subOptions": [
+      {
+        "id": "How to open a Corporate account for a private or public company?",
+        "name": "How to open a Corporate account for a private or public company?",
+        "response": "Any Private or Public Limited Company may open a Corporate account with Growth. You can get in touch with us on our account opening helpline 011-43140028/29/30/31 to do so. Our representative will guide you through the process of opening a corporate account."
+      },
+      {
+        "id": "What are the documents required to open a corporate account?",
+        "name": "What are the documents required to open a corporate account?",
+        "response": "The required documents to be sent by a Company to open an account are: 1. Duly filled documents of the Trading Demat and/or Commodity forms along with the photographs of the Authorised Signatories/Whole Time Directors and signed across by them. 2. The PAN card copy of the Company and the PAN card copies of each Authorised Signatory/ Whole Time Director of the firm. 3. Address proof copy of the Company and the address proof copy of each of the Authorised Signatory/ Whole Time Directors of the Company. 4. Proof of Bank account (A copy of a cancelled cheque leaf/ Bank statement/ Bank passbook/ Letter from the Bank) 5. A copy of the Balance Sheet of the Company for the last two financial years which is to be submitted every year. (The balance sheet should have the seal and signature of the Authorized Signatory on all the pages) 6. Income proof documents of the Company, which shall include: 6 month Bank statement/passbook of the company account. Latest audited Profit and Loss statement. ITR (Income tax return) Acknowledgement If the Company is newly incorporated, then a net worth certificate from a Chartered Accountant and an Income Tax Return declaration is required. If the return hasnt been filed, declaration of Income Tax returns has to be submitted. Note: If any of the directors is a foreign national or an NRI, then the KYC forms have to be notarized by Authorized officials of overseas branches of scheduled commercial banks registered in India, public notaries, court magistrate, judge, or the Indian embassy/consulate general in the country that they reside. 7. The Certificate of Incorporation of the Company with the seal signature of the Authorized Signatory of the company. 8. The Memorandum of Association (MOA) and the Articles of Association (AOA) of the Company. The first 4 pages of the MOA AOA should have the seal and signature of the Authorized Signatory of the company. 9. Form 32 filed by the Company. (In case the names of present Directors do not appear on the MOA/AOA). 10. Photographs of Individual Promoters holding control either directly or indirectly. 11. A FATCA declaration of the Company and all the Directors. 12. Individual KYC form filled and signed by each director (Director have to sign without the stamp on individual KYCs and supporting docs) 13. A physical verification, as part of the mandatory IPV requirement for all brokers, is required for non-individual accounts. Either a representative of the client would require to visit a growth branch office OR a representative of growth would be required to visit the offices/residence of the client to complete the IPV procedure. 14. If an individual is a shareholder of the applicant, having more than 5% of shareholding or capital or profits of the applicant, the individual should identify as an ultimate beneficiary. 15. If an entity is a shareholder of the applicant, having more than 5% of shareholding or capital or profits of the applicant, the entity should identify as an ultimate beneficiary. (a) self-attested copies of the KYC documents of the Whole Time Director/ Individual Promoters of such an entity holding 5% or more; AND (b) share holding pattern (with the company letterhead) of the entity holding 5% or more. Please raise a ticket below in case you have any queries regarding the documents required and our support representative will get in touch with you."
+      },
+      {
+        "id": "How to open a HUF account at Growth?",
+        "name": "How to open a HUF account at Growth?",
+        "response": "A HUF can open an account with Growth by getting in touch with us on our account opening helpline 011-43140028/29/30/31. Our representative will guide you through the process of opening a HUF account."
+      },
+      {
+        "id": "What are the documents required to open a HUF account at Growth?",
+        "name": "What are the documents required to open a HUF account at Growth?",
+        "response": "A HUF may open an account at Growth after duly submitting the below documents: The Karta seal/stamp is mandatorily required on all the signature fields and proofs required. All KYC documents are also required to be attested by the Karta. 1. Duly filled documents of the Trading Demat forms along with the photograph of the Karta and signed across by him. 2. The PAN card copy of the HUF and the PAN card copy of the Karta. 3. Address proof copy of the HUF and the address proof copy of the Karta of the HUF. 4. Income proof in the form of the Bank Passbook/ Statement of the HUF indicating its existence. 5. Photocopy of the PAN card of the Co-parcener. Note: The Power of Attorney(PoA) has to be signed by all the members of the HUF. (Minor co-parcener/members signatures are not required). In case there are more than 3 co-parcener/members, the space between the signature boxes in the POA can be used as indicated below -"
+      },
+      {
+        "id": "What are the documents required to open a limited liability partnership(LLP) account?",
+        "name": "What are the documents required to open a limited liability partnership(LLP) account?",
+        "response": "Documents to be provided for opening an LLP account at Growth - 1. Duly filled copies of Trading DEMAT and/or Commodity form with a photograph of Authorized Signatory affixed and signed across. 2. Copy of the LLP Agreement duly attested by a notary public (investment clause must be mentioned). The first 3 pages of the LLP agreement (on all pages if lesser) should have the seal and signature of the Authorized Signatory. 3. A copy of the PAN: PAN card copy of the Firm. PAN card of each individual Partner (Attested by each such partner). 4. Address proof: Address Proof copy of the Firm. Address Proof copy of all the partners (Attested by Each Individual Partner). 6. Proof of Bank Account (Specimen copy of cancelled check leaf/Bank Statement/Bank Passbook/Letter from Bank). 7. Copy of Balance Sheet of the Firm for the last 2 Financial Years* (to be submitted every year) if the firm is newly incorporated then, net worth certificate from CA. (The balance sheet should have the seal and signature of the Authorized Signatory on all the pages) 8. Income Proof which shall include: 6 month Bank statement/passbook of the partnership account. Latest audited Profit and Loss statement. ITR (Income tax return) Acknowledgement If the Company is newly incorporated, then a net worth certificate from a Chartered Accountant and an Income Tax Return declaration is required. If the return hasnt been filed, declaration of Income Tax returns has to be submitted. Note: If any of the partners is a foreign national or an NRI, then the KYC forms have to be notarized by Authorized officials of overseas branches of scheduled commercial banks registered in India, public notaries, court magistrate, judge, or the Indian embassy/consulate general in the country that they reside. 9. Aadhaar of the Authorized Person as per the Letter of Authority on the letterhead of the firm [not mandatory] 10. Duly filled Board resolution. 11. Copy of Certificate of Registration (For Registered LLP Firms only) (Investment clause must be mentioned). 12. Latest percentage interest of each partner/ shareholding in the Partnership firm, attested by a partner. 13. FATCA Declaration. 14. Individual KYC form filled and signed by each partner (Partners have to sign without the stamp on individual KYCs and supporting docs) 15. A physical verification, as part of the mandatory IPV requirement for all brokers, is required for non-individual accounts. Either a representative of the client would require to visit a growth branch office OR a representative of growth would be required to visit the offices/residence of the client to complete the IPV procedure. 16. If an individual is a shareholder of the applicant, having more than 5% of profits sharing of the applicant, the individual should identify as an ultimate beneficiary 17. If an entity is a shareholder of the applicant, having more than 5% of shareholding or capital or profits of the applicant, the entity should identify as an ultimate beneficiary. (a) self-attested copies of the KYC documents of the Whole Time Director/ Individual Promoters of such an entity holding 5% or more; AND (b) shareholding pattern (with the company letterhead) of the entity holding 5% or more. Additional Documents to be provided for opening an LLP account in case a company is a partner- A. In case the company is KYC registered, a Board Resolution is required to verify the authorized signatories. B. In case the company is not KYC registered, the following documents and annexures should be signed by authorized directors with the companys stamp: 1. KYC of the company and the Promoters/Directors of the company 2. Pan card and address proof of the company 3. Pan card and address proof of the directors with self-attestation (without the stamp) 4. MOA and AOA of the company (The companys MOA should authorize the company to be a partner in the LLP) 5. Balance sheet for the latest two years, If the company is newly incorporated then we required a net worth certificate from CA along with ITR Declaration annexure 6. Required Board resolution, Latest shareholding pattern, List of directors Annexure, Annexure-A with specimen signature and photograph (these annexures and board resolution are to be provided on the companys letterhead) 7. Certificate of incorporation with authorized director seal and signature. Note: Partnership Deed should allow the Firm to trade in Secondary Markets. Authority Letter in favor of Managing Partners should be on Letterhead of the Firm. All the documents need to be signed by the Managing Partner Seal of the Partnership Firm to be put where signatures are made. In case of a new Partnership Firm, provide Balance Sheet after the close of immediate Financial Year. The Bank proof should contain the Bank name, Branch address, IFSC/MICR code, Name of the account holder, Account number. Please raise a ticket below in case you have any queries regarding the documents required and our support representative will get in touch with you."
+      },
+      {
+        "id": "What are the documents required to open a partnership account?",
+        "name": "What are the documents required to open a partnership account?",
+        "response": "As a Partnership firm, the partners of the firm are required to provide certain documents and undertakings to open an account with Growth. The account may be opened under any one of the Partners name or under the name of all the Partners. The required documents to be sent are: 1. Duly filled documents of the Trading DEMAT and/or Commodity forms along with the photographs of the Authorised Signatories and signed across by them.). 2. A copy of the Partnership Deed which is duly attested by a public notary. (Investment clause must be included in the deed). The first 3 pages of the partnership deed (on all pages if lesser) should have the seal and signature of the Authorized Signatory. 3. The PAN card copy of the firm and the PAN card copies of each individual Partner of the firm. 4. Address proof copy of the firm and the address proof copy of each of the Partners of the firm. 5. Proof of bank account (A copy of a cancelled cheque leaf/ bank statement/ bank passbook/ letter from the Bank) 6. A copy of the Balance Sheet of the partnership firm for the last two financial years which is to be submitted every year and if the firm is newly incorporated, then a net worth certificate from a Chartered Accountant is required. (The balance sheet should have the seal and signature of the Authorized Signatory on all the pages) 7. Income proof documents of the firm, which shall include: 6 months Bank statement/passbook of the partnership bank account. Latest audited Profit and loss statement. If it is a newly formed partnership firm, then a net worth certificate from a Chartered Accountant and an Income Tax Return declaration is required. If the return hasnt been filed, declaration of Income Tax returns has to be submitted. Note: If any of the partners is a foreign national or an NRI, then the KYC forms have to be notarized by Authorised officials of overseas branches of scheduled commercial banks registered in India, public notaries, court magistrate, judge, or the Indian embassy/consulate general in the country that they reside. 8. A Foreign Account Tax Compliance Act (FATCA) Declaration from the Firm and all the Partners of the firm. 9. A copy of the Certificate of Registration (For Registered Partnerships only). 10. Aadhaar of the Authorized Person as per the Letter of Authority on the letterhead of the firm [Not mandatory]. 11. A physical verification, as part of the mandatory IPV requirement for all brokers, is required for non-individual accounts. Either a representative of the client would require to visit a Growth branch office OR a representative of Growth would be required to visit the offices/residence of the client to complete the IPV procedure. 12. Individual KYC form filled and signed by each partner (Partners have to sign without the stamp on individual KYCs and supporting docs) 13. If an individual is having more than 5% of profits of the applicant, the individual should identify as an ultimate beneficiary. Additional Documents to be provided for opening a partnership account in case a company is a partner- A. In case the company is KYC registered, a Board Resolution is required to verify the authorized signatories. B. In case the company is not KYC registered, the following documents and annexures should be signed by authorized directors with the companys stamp: 1. KYC of the company and the Promoters/Directors of the company 2. Pan card and address proof of the company 3. Pan card and address proof of the directors with self-attestation (without the stamp) 4. MOA and AOA of the company (The companys MOA should authorize the company to be a partner in the partnership firm) 5. Balance sheet for the latest two years, If the company is newly incorporated then we required a net worth certificate from CA along with ITR Declaration 6. Required Board resolution, Latest shareholding pattern, List of directors. 7. Certificate of incorporation with authorized director seal and signature."
+      },    
+      {
+        "id": "How to open a partnership account?",
+        "name": "How to open a partnership account?",
+        "response": "Any partnership firm or LLP may open a partnership account with Growth. You can get in touch with us on our account opening helpline 011-41441150 to do so. Our representative will guide you through the process of opening a partnership account."
+      }   
+    ]
+  },
+  {
+    "id": "NRI Account Opening Queries",
+    "name": "NRI Account Opening Queries",
+    "subOptions": [
+      {
+        "id": "Can an overseas corporate body i.e OCBs invest shares in the Indian market?",
+        "name": "Can an overseas corporate body i.e OCBs invest shares in the Indian market?",
+        "response": "No, OCBs cannot invest in the Indian markets. OCBs have been derecognized as investor class in India since September 16, 2003. An overseas corporate body is a company, partnership firm, society or any other corporate body owned directly or indirectly by a Non-Resident Indian and includes an overseas trust where not less than sixty per cent beneficial interest is held by Non-Resident Indians directly or indirectly. Such an ownership interest has to be held by them and not in the capacity of a nominee. As per the Foreign Exchange Management Regulations, 2003, no fresh account in whatever name can be opened by an OCB. However, the OCBs can continue to hold and sell shares purchased before 29th November 2001."
+      },   
+      {
+        "id": "How to open an account as a NRI?",
+        "name": "How to open an account as a NRI?",
+        "response": "A Non-Resident Indian may open a Demat Trading account with Growth by linking his/her Non-Resident Ordinary (NRO) or Non-Resident External (NRE) savings bank account. NRIs arent allowed to trade the currency or commodity markets in India. A Portfolio Investment Scheme (PIS) permission letter from Reserve Bank of India (RBI) is to be obtained before you can open a Demat and Trading account with a brokerage in India. The Bank where you have opened an NRI/NRO account will help you obtain a PIS permission letter, after providing certain documents. As a Non-Resident, you could open an NRE NRO account simultaneously. Only one account can be mapped to your Demat Trading account. By mapping an NRE account, you can only trade in the Equity segment whereas, through an NRO account, you could trade in both Equity Derivative segment. There are various documents which are required to be sent along with the printed filled up account opening form while opening a Demat Trading account with Growth, which are mentioned as below: 1. Copy of PIS permission letter; 2. Copy of PAN card; 3. Overseas address proof Copy of Driving License/Foreign Passport/Utility Bills/Bank Statement (not more than 2 months)/Notarized copy of rent agreement/Leave License agreement/ Sale Deed; 4. Indian address proof, if any. 5. Passport size photograph; 6. In case of an Indian Passport: Copy of valid passport with the place of birth as India and Copy of Valid Visa; 7. In case of Foreign Passport: Copy of Valid passport, Copy of PIO/OCI card. 8. Proof of Bank account (a cancelled cheque leaf of your NRE or NRO savings bank account); Note: Copy of PAN card, Passport, and Foreign address proof to be notarized by Indian Embassy or any other competent authority like Authorized officials of overseas branches of scheduled commercial banks registered in India, public notaries, court magistrate, judge, or the Indian embassy/consulate general in the country that they reside in the country where the NRI resides. The attesting authority should affix a verified with original stamp, name, designation, signature and date on the said documents; 9. Declaration of P.O. Box in your residing country; and 10. Foreign Account Tax Compliance Act (FATCA) Declaration Form"
+      },   
+      {
+        "id": "What are NRE and NRO accounts and is it mandatory to open a NRI account?",
+        "name": "What are NRE and NRO accounts and is it mandatory to open a NRI account?",
+        "response": "An NRI can either open an NRO or NRE savings account to invest in the Indian Stock Markets. For trading in Futures Options, an NRO account will have to be linked to the trading and DEMAT account. Non-resident External Account (NRE): An NRE account is a bank account where both the principal and the interest earned can be repatriated. You can transfer foreign currency from your foreign bank account which gets converted to rupees when it hits your NRE account. Funds kept in the NRE account can be converted back into dollars and can be transferred back to your foreign account along with the interest earned. This ability of money to be moved from a foreign country to the investors home country is called reparability. Non-resident Ordinary Account (NRO): The major distinguishing factor is that money cannot be transferred from an NRO account to an NRE account. Also, money transferred from an NRE account to an NRO account cannot be transferred back to the NRE account. The ability of money to be moved from a foreign country to the investors home country is called reparability. NRO has restricted repatriation. Non-resident Ordinary Account (NRO) is a bank account where principal and interest only up to $1 million per year can be repatriated. For trading in futures and options, a NRO account is required to be linked to your trading account."
+      },   
+      {
+        "id": "What is a PIS Letter and how do I get this PIS Letter?",
+        "name": "What is a PIS Letter and how do I get this PIS Letter?",
+        "response": "All stock exchange transactions are to be routed through the designated branch for this purpose, the NRI/PIO has to apply to a designated branch of a bank, which deals in Portfolio Investment. Portfolio Investment Scheme (PIS) is a scheme of Reserve Bank of India under which NRIs can purchase or sell shares of Indian companies on Stock Exchanges. All stock exchange transactions are to be routed through the designated branch"
+      },   
+      {
+        "id": "Which banks can NRIs link with their Growth account?",
+        "name": "Which banks can NRIs link with their Growth account?",
+        "response": "An NRE or NRO bank account may be linked to your trading account. Currently, at Growth, we support HDFC Bank."
+      },   
+      {
+        "id": "Are there any trading restrictions for NRIs",
+        "name": "Are there any trading restrictions for NRIs?",
+        "response": "NRIs can trade only on delivery based equities and equity futures and options (it is mandatory to have a Custodian Participant code to do so). Intraday trading on equities/stocks is not allowed. Currency or commodity trading is not allowed either."
+      },   
+      {
+        "id": "What is the trading process and rules for NRI accounts?",
+        "name": "What is the trading process and rules for NRI accounts?",
+        "response": "The trading process flow for NRI accounts is as below: Funds have to be allocated from your NRE/NRO bank account to your PIS. Your bank will then inform Growth on how much funds you have allocated. This is then updated to your trading account. When you make a stock purchase, the brokerage firm sends the buy contract note at the end of the day to the bank. The bank, in turn, debits your PIS account to that extent and credits the brokerage firm. Similarly, when you sell some stocks from your DEMAT, the brokerage firm sends a sell contract note at the end of the day to the bank and also credits your PIS bank account with the proceeds from the sale. Note that two separate contract notes are sent for all your buy transactions and sell transactions at the end of every day. The net amount credited/debited to your PIS will be including all charges that appear in the contract note. For Futures Options: NRI investors may trade in the futures options segment of the exchange through an NRO account."
+      },   
+      {
+        "id": "Can I convert my existing account at Growth to an NRI account?",
+        "name": "Can I convert my existing account at Growth to an NRI account?",
+        "response": "You will be allowed to convert your existing account into an NRI-NRO trading DEMAT account. Note: A conversion of individual resident account to an NRI-NRE account is not possible. An alternative is to transfer your holdings to another residential account and close your resident account and open a new NRI(NRE) account. (Share transfer from a resident account to an NRI(NRE) account is not allowed). An NRE account is a bank account where both the principal and the interest earned can be repatriated. A NRO has restricted repatriation. For trading in futures and options, an NRO account is required to be linked to your trading account. Documents required to convert the existing resident account to NRI account - Account Modification Form - To update the Bank details and Overseas address in the CDSL. FATCA Declaration Form Declaration of P.O. Box - This is only for those who reside in the UAE countries. Trading Closure form for closing the resident trading account Trading application form Notarised Copy of PAN card* Notarised copy of Overseas address proof* Copy of Driving License/Foreign Passport/Utility Bills/Bank Statement (not more than 2 months)/Notarized copy of rent agreement/Leave License agreement/ Sale Deed In case of an Indian Passport: Notarised Copy of valid passport* with the place of birth as India, Copy of Valid Visa In case of Foreign Passport: Notarised Copy of Valid passport*, Copy of PIO/OCI card. Proof of Bank account ( a cancelled cheque leaf of your NRO savings bank account). (Either Axis or HDFC Bank) Copy of PIS account/NRO-Investment account letter to map to the trading account. ( Either Axis or HDFC Bank) *Note: Copy of PAN card, Passport, and Foreign address proof to be notarized by Indian Embassy or any other competent authority like Consulate General / Notary Public / Any Court / Magistrate / Judge / Local Banker in the country where the NRI resides. When you open an NRO-PIS account/NRO-investment account, you will have to update the bank about your existing holdings and would be required to update them in the ledger maintained at the banks end. The following details are to be mentioned on an annexure (purchase date, the name of the scrip, cost of acquisition, etc ) which is included in the PIS form and submitted to the bank. We arent supporting Mutual Fund investments for NRIs at present and this could take us a while to introduce. If you do have any Mutual funds in your holdings, you would have to redeem them or need to transfer the units to another account."
+      },   
+      {
+        "id": "Is attestation of supporting documents mandatory for opening NRI accounts",
+        "name": "Is attestation of supporting documents mandatory for opening NRI accounts",
+        "response": "Attestation is compulsory in the following scenario: If you arent KYC verified as an NRI, you will need to get the attestation of the PAN, Passport and Foreign Address proof from one of the following - Authorised officials of overseas branches of scheduled commercial banks registered in India Public notaries Court magistrate Judge Multi-National banks having operations in India Indian embassy/consulate general in the country of residence Attestation is not required for the following scenarios: 1. If you are present in India and visiting any of our branches/partner offices, the attestation wouldnt be required. You can submit the self-attested documents along with a copy of the latest immigration stamping. (Please carry the original while visiting our office) 2. Attestation is not required if your current NRI address is registered in your KYC."
+      },   
+      {
+        "id": "I'm moving abroad, Can I continue to use my Growth trading account?",
+        "name": "I'm moving abroad, Can I continue to use my Growth trading account?",
+        "response": "You can use the account if youre moving abroad for a short-term period (6 months). The status doesnt change to NRI. Anything over a period of 6 months, you become an NRI and should change the account. If a person leaves India for the purpose of employment, business or for any other purpose that indicates his intention to stay outside India for an uncertain period; then he becomes a non-resident from the day he leaves India for such. In both the cases, the onus is on the client to declare his residential status. You can either convert your existing Trading DEMAT account to an NRO trading DEMAT account or close your resident account and open a new NRI account."
+      },
+      {
+        "id": "As an NRI, will dividends be credited to NRE or NRO account?",
+        "name": "As an NRI, will dividends be credited to NRE or NRO account?",
+        "response": "The dividends will get credited to your NRO or NRE account respectively depending on which of these youve linked to your DEMAT account. If you have already linked an NRE account, you do not have to open an NRO account in order for the dividends to be credited vice versa. Note: The dividend is credited by the RTA (Registrar and Transfer Agents). There may be cases where they may not be able to credit the dividend to your NRE account. In such cases, a cheque would be sent to your registered address. In scenarios, where you have both NRE NRO accounts, they will be mapped to their own respective DEMAT accounts. So depending on which DEMAT account you have the stock eligible for dividends in, the bank account linked to that, either NRE/NRO will get the dividend Credit."
+      },
+      {
+        "id": "Can a NRI do Intraday trading?",
+        "name": "Can a NRI do Intraday trading?",
+        "response": "No, NRIs arent allowed to make intraday trades."
+      }
+    ]
+  },
+  {
+    "id": "Financial Queries",
+    "name": "Financial Queries",
+    "subOptions": [
+      {
+        "id": "How do I add money to my trading account using IMPS, NEFT or RTGS?",
+        "name": "How do I add money to my trading account using IMPS, NEFT or RTGS?",
+        "response": "You can add funds using NEFT/IMPS/RTGS using your Internet Banking by remitting the funds to Growth bank account. You can add Growth as Beneficiary (Payee) in your internet banking portal and transfer funds."
+      },
+      {
+        "id": "Growth’s bank account number is alphabets, my bank doesn’t allow this, is there an alternative?",
+        "name": "Growth’s bank account number is alphabets, my bank doesn’t allow this, is there an alternative?",
+        "response": "If your bank doesnt allow you to transfer money to accounts identified with alphabets, or add them as beneficiaries, or you can use the alternative bank."
+      },
+      {
+        "id": "Why is the money I added through an IMPS/NEFT transfer not reflecting in my trading account?",
+        "name": "Why is the money I added through an IMPS/NEFT transfer not reflecting in my trading account?",
+        "response": "Funds added through IMPS/NEFT needs a proof in order to get updated in your account. You can share your bank statement or passbook copy in order to update the fund. You can mail us at the below mentioned mail Id for the respective segments- For Equity: margin@growth.in, For Commodity: com_deposits@growth.in"
+      },
+      {
+        "id": "How do I add money to my trading account using a cheque?",
+        "name": "How do I add money to my trading account using a cheque?",
+        "response": "You can either deposit the cheque directly to the respective bank. If you are not able to do so you can courier or post us the cheque on the below mentioned address- Growth Securities, Growth House, 4/10, Asaf Ali Road, New Delhi-110002. Also, make sure to mention your Code or Client ID on the back of the cheque for our reference."
+      },
+      {
+        "id": "How do I add money to my trading account directly through ODIN Wave Mobile App?",
+        "name": "How do I add money to my trading account directly through ODIN Wave Mobile App?",
+        "response": "You can add funds directly from our trading platforms, instantly using the payment gateway If you have a secondary bank account linked to your account you can also choose from which bank account youd like to make the transfer from. Once you enter the details on the net banking portal of your bank and authorize the payment, a window will pop up with the details and status of the transaction, If you havent seen it, wait for a few seconds till you see the window. Once you do the funds will start reflecting in your Account under Pay-in under the funds tab."
+      },
+      {
+        "id": "Why is the money I added today not shown in my ledger?",
+        "name": "Why is the money I added today not shown in my ledger?",
+        "response": "When you add money to your trading account during trading hours. It will be posted to your ledger after market hours i.e around 5:30 PM."
+      },
+      {
+        "id": "Is there a limit on how much funds I can transfer to my trading account?",
+        "name": "Is there a limit on how much funds I can transfer to my trading account?",
+        "response": "For IMPS/NEFT/RTGS transfers, the maximum amount is decided by your bank. For ODIN Wave Application transfers there are no maximum limits. There is no restriction on the amount of money that can be kept in your trading account."
+      },
+      {
+        "id": "Can I add money through my debit or credit card?",
+        "name": "Can I add money through my debit or credit card?",
+        "response": "No, we do not accept debit and credit card payments for funds transfer into your trading account."
+      },
+      {
+        "id": "Can I add money to my trading account using cash or demand draft?",
+        "name": "Can I add money to my trading account using cash or demand draft?",
+        "response": "No, we dont accept cash or Demand Draft. You will have to add funds through the payment gateway on ODIN Wave App or use IMPS/NEFT/RTGS or make a cheque transfer."
+      },
+      {
+        "id": "How do I withdraw money from my trading account?",
+        "name": "How do I withdraw money from my trading account?",
+        "response": "You can easily withdraw funds from your account by selecting the options of payout in fund transfer. Or you can request your relationship manager or helpdesk to do it for you."
+      },
+      {
+        "id": "How much time does it take to process a withdrawal request?",
+        "name": "How much time does it take to process a withdrawal request?",
+        "response": "Equity withdrawal requests are processed till 6:00 pm for the same day on working weekdays and the funds are transferred to your Bank Account within that day. Withdrawal request placed on Saturday and Sunday and will be processed on Monday. Withdrawal requests placed on Fridays preceding 2nd and 4th Saturday of the month will be credited to the Bank Account only on Monday due to bank holidays on the respective Saturdays. Withdrawal request placed on Saturday and Sunday and will be processed on Monday. Note: Payins made during the day cannot be withdrawn on the same day. If still not received fund then create a ticket at growthsec.com/ticket"
+      },
+      {
+        "id": "When can I withdraw my funds if I sell my shares or close my positions today?",
+        "name": "When can I withdraw my funds if I sell my shares or close my positions today?",
+        "response": "Funds from stock holdings sold, and intraday profits gets added to withdrawal balance after 2 days. FO profits, and funds from FO positions exited will get added to withdrawal balance after 1 day. This is because exchanges in India follow a rolling settlement cycle."
+      },
+      {
+        "id": "I placed a withdrawal request 24 hours ago, why haven’t I received my money?",
+        "name": "I placed a withdrawal request 24 hours ago, why haven’t I received my money?",
+        "response": "Withdrawal request placed on Saturday and Sunday (or public holidays) take longer than 24 hours to be processed. If you still not received your funds then create a ticket at growthsec.com/ticket"
+      },
+      {
+        "id": "Can I request to get payout in my non - primary bank?",
+        "name": "Can I request to get payout in my non - primary bank?",
+        "response": "Yes, you can get payout in your bank account other than your primary account. If you are placing the request from your end you get an option of selecting bank there. If you place a request from our end you need to mention the bank."
+      }
+    ]
+  },
+  {
+    "id": "Trading Queries",
+    "name": "Trading Queries",
+    "subOptions": [
+      {
+        "id": "Does Growth provide leverage for delivery/carry over positions?",
+        "name": "Does Growth provide leverage for delivery/carry over positions?",
+        "response": "Yes, we do provide upto 5x limits for delivery/carry over the positions."
+      },
+      {
+        "id": "How much margins/leverage does Growth provide?",
+        "name": "How much margins/leverage does Growth provide?",
+        "response": "We provide the limits as per the applicable margin."
+      },
+      {
+        "id": "What does CNC, MIS and NRML mean?",
+        "name": "What does CNC, MIS and NRML mean?",
+        "response": "MIS stands for Margin Intraday Square Off CNC stands for Cash and Carry NRML Normal MIS is used for trading Intraday Equity, Intraday FO, and Intraday Commodity Trading. Using the MIS product code you will get an intraday leverage upto 20x times based on what stock you are trading."
+      },
+      {
+        "id": "What are limit and market orders?",
+        "name": "What are limit and market orders?",
+        "response": "instruct your broker not to go higher than the specified price. And when you are selling you instruct your broker not to sell below your specified price. The advantage of placing a limit order is that you can place buy/sell order at the desired price. However, there is a chance that your order may not get filled as there not be a counter order at the exchange at the price youve specified. Note: - When placing Buy Limit orders, the limit price entered must be below the Current Market price - When placing Sell limit orders, the limit price entered must be above the current market price Ex - if the CMP of a scrip is 100, buy limit orders must be placed below 100 (95,99 etc), sell limit orders must be placed above 100 (101,108 etc) If the above rule isnt followed, even limit orders will get executed as market orders. A market order is an order to buy or sell a contract/stock at market prices. The price is not specified at the time of placing the order. The buy market order gets executed at the price at which the seller is ready to sell and the sell market order gets executed at the price at which the buyer is ready to buy. The advantage of the Market Order is that the order will definitely be executed all the prevailing market rate, however, the trader might end up paying slightly more or selling at a slightly lower price. (i.e slippage)"
+      },
+      {
+        "id": "How to convert MIS to CNC/NRML and vice versa?",
+        "name": "How to convert MIS to CNC/NRML and vice versa?",
+        "response": "You will be allowed to convert MIS positions to CNC/NRML only if you have sufficient margins in your account. You can check the RMS dept to know how much extra margin youll need to have."
+      },
+      {
+        "id": "Why did my limit order get executed at market price?",
+        "name": "Why did my limit order get executed at market price?",
+        "response": "1. When placing Buy Limit orders, the limit price entered must be below the Current Market price 2. When placing Sell limit orders, the limit price entered must be above the current market price Ex - if the CMP of a scrip is 100, buy limit orders must be placed below 100 (95,99 etc), sell limit orders must be placed above 100 (101,108 etc) If the above rule isnt followed, even limit orders will get executed as market orders."
+      },
+      {
+        "id": "What are bracket orders (BO) and how to use them?",
+        "name": "What are bracket orders (BO) and how to use them?",
+        "response": "Note: The exit leg of BOs have been changed from SL-M (stop-loss market) to SL (Stop Loss). A type of order where you can enter a new position along with a target/exit and a stop loss order. As soon as the main order is executed the system will place two more orders (profit taking and stop loss). When one of the two orders (profit taking or stop loss) gets executed, the other order will get cancelled automatically. Bracket orders are essentially algo orders. Bracket orders can be used only for intraday trades. All bracket orders will be squared off automatically at 3:20 pm. BOs arent allowed on BSE stocks, Bank nifty options, stock options, currency options and MCX. Entry with Bracket orders can be done using Limit orders and also Stop loss orders based on triggers. The stop loss for exit will be an SL order. You can also use a trailing stop loss, this means that if the contract/stock moves in your direction (position becomes profitable) by a particular number of ticks, the stop-loss will go up/down based on if you are long or short, automatically. Using trailing stop loss is optional and if you use the trailing stop loss, youll not be able to modify the bracket order."
+      },
+      {
+        "id": "What are cover orders and how to use them?",
+        "name": "What are cover orders and how to use them?",
+        "response": "In a Cover Order - the buy/sell order is either market order or a limit order which is accompanied by a compulsory Stop Loss order, in a specified range. This Stop Loss Order cannot be cancelled. Since the Stop Loss Order is being placed simultaneously while getting into the contract, the risk that is being taken automatically reduces. Because the risk reduces, the margin requirement also automatically reduces and thus higher leverage is provided.Check the margin calculator to check margin requirements. Both BO CO are intraday products will be squared off between 3:10- 3:15 pm. If the markets are very volatile, BO CO orders can be squared off by 3 pm after notifying the same to you. COs arent allowed on BSE stocks, Bank nifty options, stock options and currency options."
+      },
+      {
+        "id": "What are stop loss orders and how to use them?",
+        "name": "What are stop loss orders and how to use them?",
+        "response": "A stop-loss order is a buy/sell order placed to limit the losses when you fear that the prices may move against your trade. So for example, if you have bought a stock at Rs 100 and you want to limit the loss at 95, you can place an order in the system to sell the stock as soon as the stock comes to 95. Such an order is called as a Stop Loss, as you are placing it to stop a loss more than what you are ready to risk. There are 2 types of Stop-Loss orders: 1. SL order (Stop-Loss Limit) = Price + Trigger Price 2. SL-M order (Stop-Loss Market) = Only Trigger Price Case 1 if you have a buy position, then you will keep a sell SL Case 2 if you have a sell position, then you will keep a buy SL In Case 1, if you have a buy position at 100 and you wish to place an SL at 95. a. SL-M order type - you will place a Sell SL-M order with trigger price = 95. Here, when the price of 95 is triggered, a sell market order will be sent to the exchange and your position will be squared off at market price. b. SL order type - you will place a Sell SL order with price and trigger price. Since your order needs to be triggered first, the (trigger price price.) Here, this order type gives you a range of the Stop-Loss. Lets assume a range of Rs 0.10 (10 paise). Here, you can keep trigger price = 95 and price = 94.90. When the price of 95 is triggered, the sell limit order is sent to the exchange and your order will be squared off at the next available bid above 94.90. So, your SL order may get executed at 96 or 94.95 but not below 94.90. The disadvantage of this order is that if the market falls steeply, then after 95 is triggered and before the Sell Limit order of 94.90 is sent to the exchange if the stock price is already below 94.90, then your Stop-Loss order will still be open and your losses could be much higher. You will have to use your discretion whether to use SL or SL-M depending on the market scenario. In Case 2, if you have a sell position at 100 and you wish to place an SL at 105. a. SL-M order type - you will place a Buy SL-M order with trigger price = 105. Here, when the price of 105 is triggered, a buy market order will be sent to the exchange and your position will be squared off at market price. b. SL order type - you will place a Buy SL order with price and trigger price. Since your order needs to be triggered first, (the trigger price price.) Here, this order type gives you a range of the Stop-Loss. Lets assume a range of Rs.0.10 (10 paise). Here, you can keep trigger price = 105 and price = 105.10. When the price of 105 is triggered, the buy limit order is sent to the exchange and your order will be squared off at the next available offer below 105.10. So, your SL order may get executed at 105.05 or 104, but not above 105.10. Alternate use of SL order: Since Sell SL orders are used above your buy price and Buy SL orders are used below your sell price, you can use these order types to Buy above LTP (Last Traded Price) and Sell below LTP. 1. To buy above LTP, you can place a Buy SL order with the price at which you want to buy. 2. To sell below LTP, you can place a Sell SL order with the price at which you want to sell."
+      },
+      {
+        "id": "Why was my SL order executed even though the price did not breach my trigger?",
+        "name": "Why was my SL order executed even though the price did not breach my trigger?",
+        "response": "This is probably one of the most asked queries to brokerages, I placed a limit/SL order which got executed, but I dont see that price on any charts be it on my trading platform (ODIN or any other), NSE website, Yahoo, Amibroker, or anywhere else. So is there a problem with the trading platform? The first thing to remember is that in India all trades are executed on the exchange, there are no dark pools like in some of the developed markets. So if there is an order you placed which got executed, you can cross check the same with the exchange end of the day and you will see your executed trades. So why dont you see your price on the chart? Something for you to know: Tick Data: Market data that shows price and volume at every print, it also includes information about every change to the best bid and ask. In a single trading day, there are millions of such ticks recorded (remember this also includes a change in best bid and ask prices) and it is technically not possible for any trading platform to show all ticks, especially live and on a normal broadband internet connection. If you really want to see all the ticks, NSE does have Tick by Tick data feed which is a lot more expensive than the normal data feed and will have to be subscribed to through any of the authorized NSE data vendors (Not all of them give you tick by tick data). Also to be able to make the best use of this tick by tick data, you should ideally be on the NSE collocation which would mean that your systems are inside NSE itself so that accepting all the millions of ticks will be quite efficient. Tick by Tick data is usually what professional High Frequency and Arbitrage trading firms use, dont think there is anything much a normal retail trader can do with it. Coming back to the question, all trading and charting platforms will display only 1 tick per second on a chart, whereas there could actually have been hundreds of ticks in that 1 second. Since you are seeing only 1 tick on the chart, it is quite possible that you dont see your SL or limit price that got executed on the chart (be it on NSE, yahoo, NEST, or anywhere else). But as I said earlier, if a trade is executed you can rest assured that the price was printed and it can be reconfirmed on the NSE Trade verification module within 5 days from when it was executed and you could also see the days range on the daily Bhavcopy and you will see your SL/Limit price within this range."
+      },
+      {
+        "id": "Can I use the profits I made from trading in F&O to trade on the same day?",
+        "name": "Can I use the profits I made from trading in F&O to trade on the same day?",
+        "response": "The settlement cycle for FO is T+1 days. This implies that when you make profits, it will be realised on the T+1th day. Due to this, if you take an FO position make profits, we will not consider these profits while reporting margins to the exchanges, since the profits are realized on T+1. These profits will not be unencumbered balance on that day, and thus wont be considered as available margin for trading in FO."
+      },
+      {
+        "id": "Why does shares sold from holdings show up as a new negative position?",
+        "name": "Why does shares sold from holdings show up as a new negative position?",
+        "response": "When you sell shares from your holdings, it shows up under the positions tab as a new negative (short) position. This is completely normal. (This feature is enabled to allow traders to make intraday trades using the stocks they hold and help track their intraday PL) When you sell shares you hold, the quantity of shares shown in the holdings tab will reduce accordingly and will this will reflect as a CNC short in the positions tab. At the end of the day and the sale of the share will reflect in your tradebook and holdings. These shares will have been sold at the price at which you placed the CNC sell order got executed. Note: When you sell shares from your holdings, in the positions page the quantity and average will be shown as 0. However, your PL will keep fluctuating until the end of the trading day, based on your selling price and LTP. Ex - if you sell 100 shares of INFY from your holdings at Rs 700 and now the price moves to Rs 690, in your positions page your PL will show as Rs 1000 profit. Similarly, if the LTP is 705, the PL will be shown Rs 500 loss."
+      },
+      {
+        "id": "Why my order is getting rejected?",
+        "name": "Why my order is getting rejected?",
+        "response": "If a buy or sell order you have placed is rejected it could be due to one of many reasons like insufficient margin, incorrect use of order type, scrip not available for trading, stock group change etc. If its other than this please contact your branch or our RMS team you can directly call us 011-43140028/29/30/31."
+      },
+      {
+        "id": "What is span and exposure margin?",
+        "name": "What is span and exposure margin?",
+        "response": "SPAN Margin is the minimum requisite margins blocked for futures and option writing positions as per the exchanges mandate and Exposure Margin is the margin blocked over and above the SPAN to cushion for any MTM losses. Do note both SPAN and Exposure margin are specified by the exchange. So at the time of initiating a futures trade, the client has to adhere to the initial margin requirement. The entire initial margin (SPAN + Exposure) is blocked by the exchange."
+      }
+    ]
+  }
+]

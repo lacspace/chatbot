@@ -98,7 +98,11 @@
     },
     {
       "query": "What is an IPO?, IPO, Define IPO, define ipo, Define ipo, Initial Public Offering, initial public offering, Initial public offering",
-      "answer": "An IPO (Initial Public Offering) is the process through which a company offers its shares to the public for the first time."
+      "answer": "An IPO (Initial Public Offering) is the process through which a company offers its shares to the public for the first time. For more detail please visit our page growthsec.com/initial-public-offering-ipo"
+    },
+    {
+      "query": "apply ipo, Apply ipo, Apply IPO, how to apply ipo, How to apply ipo, IPOs, ipos, process to apply ipo",
+      "answer": "Invest in IPOs from the comfort of your house with a few clicks. To see process please visit our page growthsec.com/initial-public-offering-ipo or apply directly from ipo.growthsec.com"
     },
     {
       "query": "What is market capitalization?, market capitalization, define market capitalization, Define market capitalization",
@@ -337,7 +341,7 @@
       "answer": "Insider trading refers to the buying or selling of stocks by individuals who have access to non-public, material information about the company. It is illegal and unethical, as it undermines the fairness and integrity of the market."
     },
     {
-      "query": "What is a margin call?, margin call, Define margin call, define margin call",
+      "query": "What is a margin call?, margin call, Margin call, Margin Call, Define margin call, define margin call",
       "answer": "A margin call is a notification from a broker to an investor demanding additional funds or collateral when the value of securities held in a margin account falls below a certain threshold. It is intended to ensure that the investor can cover potential losses."
     },
     {
@@ -461,7 +465,7 @@
       "answer": "Equity trading refers to the buying and selling of company shares or stocks in the stock market. It involves investors and traders exchanging ownership in publicly listed companies. Equity trading provides individuals and institutions with the opportunity to participate in the growth and performance of companies and potentially earn profits through price appreciation and dividends."
     },
     {
-      "query": "What is algorithmic trading?, algorithmic trading, algo trading",
+      "query": "What is algorithmic trading?, algorithmic trading, algo trading, algo trade, Algo trade, Algo Trade",
       "answer": "Algorithmic trading, also known as algo trading, is a trading strategy that utilizes computer algorithms to automatically execute trades in the financial markets. Algo trading relies on predefined rules and parameters to make trading decisions, aiming to achieve optimized execution, reduced transaction costs, and increased speed. It is commonly used by institutional investors and hedge funds."
     },
     {
@@ -525,7 +529,7 @@
       "answer": "Trading and demat accounts may have associated charges, which can vary depending on the service provider and the type of account. Common charges include account opening fees, annual maintenance charges, transaction fees, brokerage fees, and other service-related charges. It is advisable to carefully review the fee structure and understand the costs before opening an account."
     },
     {
-      "query": "What is the role of a depository participant (DP)?, role of depository participant, role of DP services",
+      "query": "What is the role of a depository participant (DP)?, role of depository participant, role of DP services, DP services, dp services, DP service, dp service, Dp services, Dp service, DP, dp, Dp, dp",
       "answer": "A depository participant (DP) is an entity registered with the depository, such as the Central Depository Services Limited (CDSL) or the National Securities Depository Limited (NSDL), to offer demat account services. DPs facilitate the opening and maintenance of demat accounts, provide account statements, handle securities transactions, and ensure compliance with regulatory requirements."
     },
     {

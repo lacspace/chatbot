@@ -1,7 +1,7 @@
 {
   "responses": [
     {
-      "query": "Hi,, Hii, Hy, hy, hi, hii, Hello, hello, Hlw, hlw, Hlo, hlo, hay, hey, hai, hei, Greetings, Greeting, Greetings!, Greeting!, greeting, greetings",
+      "query": "Hi,, Hii, Hy, hy, hi, hii, Hello, hello, Hlw, hlw, Hlo, hlo, hay, hey, hai, hei, Greetings, Greeting, Greetings!, Greeting!, greeting, greetings, Helo, Heloo, Hi there, Hii there, Hy there, Hey there, Helloo, Hiii, Hyyy, Greetingss, Greetins",
       "answer": "Hello! How can I assist you today? Feel free to ask any questions or seek guidance on your journey."
     },
     {
@@ -9,31 +9,31 @@
       "answer": "I'm glad you found it amusing! If you have any more questions or need further assistance, feel free to ask. I'm here to help!"
     },
     {
-      "query": "Who are you?, who are you?, Who are you, who are you, Who're you?, who're you?, Who're you, who're you",
-      "answer": "I'm a chatbot, programmed to assist you about stock market and our company."
+      "query": "Who are you?, who are you?, Who are you, who are you, Who're you?, who're you?, Who're you, who're you, What are you?, what are you?, What are you, what are you, What're you?, what're you?, What're you, what're you",
+      "answer": "I'm a chatbot, programmed to assist you with information about the stock market and our company."
     },
     {
-      "query": "Let's chat, let's chat, lets chat, Lets chat",
-      "answer": "Of course! I'm here to chat with you. Let's talk about stock market. Type stock market to go ahead."
+      "query": "Let's talk, let's talk, lets talk, Lets talk, chat with me, Chat with me, chat with me, Chat with me, Talk to me, Talk to me, talk to me, Talk to me",
+      "answer": "Of course! I'm here to chat with you. Let's talk about the stock market. Type 'stock market' to go ahead."
     },
     {
-      "query": "What is your age?, What is your age, what is your age, your age, Your age, your age?, Your age?",
+      "query": "How old are you?, How old are you, how old are you, Age?, age?, Age, age, What's your age?, What's your age, what's your age",
       "answer": "I'm 27 years old."
-    },
+    },    
     {
-      "query": "Who developed you?, Who is you developer, Who is you developer, your developer, you developer, Your developer, Your developer?, Who developed you, who developed you, Where  were you developed, Which company developed you, which company developed you, Whom developed you, Who develope you, Who develope you?, who develope you, who develope you.",
+      "query": "Who created you?, Who built you?, Who is your creator?, Who's behind your development?, Your creator?, Your developer?, Who brought you to life?, Who made you?, Who's your maker?, Who's responsible for your creation?, Who's the brains behind you?, Who's the genius behind your existence?, Who's your developer?, Who's the mastermind behind your design?",
       "answer": "I'm developed by Chandan Karna at Growth Securities."
     },
     {
-      "query": "Can you calculate?, can you calculate?, Do you know calculations, Can you calculate, can you calculate",
-      "answer": "Yes, I can calculate. Try asking 1+1, 1-1, 1*1, 1/1 or something else and if you want more complex calculations like SIP, Lumpsum, CGAR or something else then visit our page growthsec.com/growth-calculators"
+      "query": "Can you do math?, Can you perform calculations?, Are you capable of math?, Are you good at calculations?, Do you possess mathematical skills?, Can you handle numbers?, Do you excel in math?, Can you crunch numbers?, Are you a math whiz?, Can you solve math problems?, Can you compute?, Can you work with numbers?, Can you do arithmetic?, Can you perform mathematical operations?",
+      "answer": "Yes, I can calculate. Try asking 1+1, 1-1, 1*1, 1/1, or something else. If you want more complex calculations like SIP, Lumpsum, CGAR, or something else, visit our page growthsec.com/growth-calculators."
     },
     {
       "query": "Stock Market, stock market, Stock market, Share market, Share Market, share market, What is share market, what is share market,  Define stock market, What is stock market?, What's stock market, Whats stock market, what's stock market, whats stock market",
       "answer": "Certainly! Let's talk about the stock market. What specific aspects or questions do you have about it? Whether you're interested in understanding the basics, discussing investment strategies, or exploring specific stocks or trends, feel free to let me know and we can delve into the topic together."
     },
     {
-      "query": "Great thanks, Awesome, awesome, Nice, nice, wow awesome, Wow awesome, wow nice, Wow nice, Very Good, Very good, very good, great thanks, great thank you, great replay, great, great job, Great job, Great Job, Great, just wow, ok, okay, Okay, Ok, Just wow, Wow, wow, great thanks to you, Great Thanks to You, Great Thanks, Great thanks",
+      "query": "Great thanks, Awesome, awesome, Nice, nice, wow awesome, Wow awesome, wow nice, Wow nice, Very Good, Very good, very good, great thanks, great thank you, great replay, great, great job, Great job, Great Job, Great, just wow, ok, okay, Okay, Ok, Just wow, Wow, wow, great thanks to you, Great Thanks to You, Great Thanks, Great thanks, ok thank you, Ok thank you, ok thanks, okay thanks, Okay thank you, oky, hmm thanks, hmm thank you, hmm ok, hmm okay",
       "answer": "I'm glad you're satisfied! If you have any more questions or need further assistance in the future, feel free to reach out. Have a great day!"
     },
     {
@@ -49,19 +49,19 @@
       "answer": "I'm a chatbot. I don't have feelings, but thanks for asking!"
     },
     {
-      "query": "What's happening?, What's going on?, Any news?, What's the latest?, What's up, whats up, what's up",
+      "query": "What's happening in the world?, Current news, Latest updates, Any breaking news?, What's in the news today?, Tell me about the latest events, What's going on in the world?, News headlines, What's new?, Any interesting news?, Updates on current affairs",
       "answer": "There are various things happening. Can you be more specific about what you'd like to know?"
     },
     {
-      "query": "What is your name?, What is you name?, What should I call you?, Who are you?",
-      "answer": "I am a Growth chatbot. You can call me Growth."
+      "query": "What is your name?, What is you name?, What should I call you?, Who are you?, Who are you?, What can I call you?, what is your name, What is your name, your name, Your name, Your Name, you name, You name, your name?, Your Name?, Your name?",
+      "answer": "I am a Growth chatbot, developed by Chandan Karna at Growth Securities. You can call me San."
     },
     {
-      "query": "Hey Growth, hey Growth, Hi Growth, Hello Growth, hello Growth, hi Growth",
+      "query": "Hey San, hey San, Hi San, Hello San, hello San, hi San, Hola San, Hey there San, Hi there San, Hey San, Howdy San, Greetings San, Good day San, Sup San, What's up San, How's it going San",
       "answer": "Hello! How can I assist you today? Feel free to ask any questions or seek guidance on your journey."
     },
     {
-      "query": "Tell me a joke, Can you tell me something funny?, any joke, can you joke",
+      "query": "Tell me a joke, Can you tell me something funny?, any joke, can you joke, Share a joke, Make me laugh, Give me a laugh, Crack a joke, Joke time, Funny story, Humor me, Bring some humor, Share some humor, Share a funny story, Tell something amusing, Tell something hilarious",
       "answer": "Sure! Here's a joke: Why don't scientists trust atoms? Because they make up everything!"
     },
     {
@@ -73,7 +73,7 @@
       "answer": "To create ticket visit our page growthsec.com/ticket, fill all required details and submit the form your ticket will be created. But remember to create a ticket, please ensure that all your details are filled correctly and accurately in this form. Any mismatched information may result in your ticket being rejected. Thank you for your cooperation."
     },
     {
-      "query": "What is the weather today?, How's the weather outside?, weather outside",
+      "query": "What's the weather like today?, Tell me the weather forecast, How's the weather outside?, weather outside, Weather report, Forecast today, Is it going to rain today?, Weather update, Current weather conditions, What's the temperature today?, Weather in [your location], Weather in [city name], Weather in [country name], Weather in [specific location], Weather in [date], Weather forecast for the week, Weather news, What should I wear today?, Do I need an umbrella today?, Should I bring a jacket today?, Weather app recommendation, Weather website recommendation",
       "answer": "I'm sorry, but I don't have access to real-time weather information. You can check the weather using a weather app or website."
     },
     {
@@ -81,39 +81,39 @@
       "answer": "As a chatbot, I don't have personal preferences, including a favorite color."
     },
     {
-      "query": "What is the meaning of life?, Why are we here?",
+      "query": "What's the purpose of life?, Why do we exist?, Is there a meaning to life?, What's the point of life?, What is the goal of life?, Philosophical questions, Existential questions, Why are humans here?, What's the meaning of existence?, Deep questions about life, What's the significance of life?, Life's ultimate purpose, Purpose of human existence, Finding meaning in life, How to discover life's purpose",
       "answer": "The meaning of life is subjective and can vary from person to person. It's a deep philosophical question that has been pondered by many throughout history."
     },
     {
-      "query": "How can I improve my skills?, improve my skills, Any tips for personal growth?",
+      "query": "How can I develop new skills?, Tips for skill development, Improving skills and abilities, Skill enhancement strategies, Personal growth and development, Self-improvement techniques, Ways to grow personally, Skill building advice, Self-development tips, Techniques for self-improvement, Skill acquisition methods, How to become better at something, Advancing skills and abilities, Self-growth tips, Lifelong learning, Ways to enhance skills",
       "answer": "To improve your skills and achieve personal growth, consider setting specific goals, seeking learning opportunities, practicing regularly, seeking feedback from others, and staying persistent."
     },
     {
-      "query": "What's your favorite book?, Can you recommend a book to read?",
+      "query": "Best books to read, Book recommendations, Must-read books, Favorite books of all time, Top literature suggestions, Book genre suggestions, Fiction vs. non-fiction books, Classic novels to explore, Popular book series, Bestsellers in literature, Good books for beginners, Reading recommendations, Book reviews and ratings, New book releases",
       "answer": "As the Growth chatbot, I don't have personal preferences, including a favorite book. However, I can recommend popular books in various genres if you'd like."
     },
     {
-      "query": "What's the capital of [country name]?, Tell me about [country name]",
-      "answer": "The capital of [country name] is [capital]. [Additional information about the country]."
+      "query": "What is the capital of India?, Tell me about India, India capital and facts, New Delhi, Facts about New Delhi, India tourist attractions, Famous landmarks in India, Indian culture and history, Indian cuisine, India travel tips, Visiting New Delhi, Taj Mahal, Indian flag, Hindi language, India population, India map",
+      "answer": "The capital of India is New Delhi. India, located in South Asia, is known for its diverse culture, rich history, and delicious cuisine. It's famous for landmarks like the Taj Mahal, a UNESCO World Heritage Site. Indian cuisine offers a wide variety of dishes, including biryani, samosas, and butter chicken. The official languages are Hindi and English, and India has a population of over 1.3 billion people. Here's a map of India: [Link to a map of India]."
     },
     {
-      "query": "How can I stay motivated?, Any tips for staying motivated?",
+      "query": "Motivation techniques, Staying motivated at work, Overcoming procrastination, Self-motivation tips, Setting and achieving goals, Staying motivated while studying, Finding inspiration in daily life, Maintaining a positive mindset, Dealing with lack of motivation, Motivational quotes, Staying motivated during challenging times, Strategies for continuous self-improvement",
       "answer": "To stay motivated, it helps to set clear goals, break them down into smaller tasks, find inspiration, maintain a positive mindset, and celebrate your progress."
     },
     {
-      "query": "What's the best way to relax?, How can I relieve stress?",
+      "query": "What's the best way to relax?, How can I relieve stress?, How to relax?, How can I relive stress?, How can I relax?, How can I realx stress?, How to releave stress?, How to relax after a long day?, How to relieve strees?, What's the best way to realax?",
       "answer": "There are various ways to relax and relieve stress, such as practicing mindfulness or meditation, engaging in physical activity, spending time in nature, pursuing hobbies and interests, or listening to soothing music."
     },
     {
-      "query": "Can you recommend a good restaurant nearby?, Where should I go for dinner?",
+      "query": "Can you recommend a good restaurant nearby?, Where should I go for dinner?, Suggest a restaurant nearby, Any good restaurants around?, Any good places to eat?, I need a restaurant recommendation, Tell me where to have dinner, Suggest a place to dine, Where can I find a good eatery?, Looking for dining options",
       "answer": "I'm sorry, but I don't have access to real-time restaurant information. You can use online review platforms or ask locals for recommendations."
     },
     {
-      "query": "How can I improve my productivity?, Any tips for being more productive?",
+      "query": "How can I improve my productivity?, Any tips for being more productive?, How to be more productive?, Tips for being productive, Make me more productive, Suggestions for productivity improvement, What can I do to enhance productivity, Help me with productivity, Ways to increase productivity, Improving work efficiency, Boost my productivity, Become more productive, Enhance my work performance, Increase my efficiency",
       "answer": "To improve productivity, consider prioritizing tasks, breaking them into smaller steps, minimizing distractions, managing time effectively, and maintaining a healthy work-life balance."
     },
     {
-      "query": "Can you help me with my homework?, I need assistance with my assignments",
+      "query": "Can you help me with my homework?, I need assistance with my assignments, Aid me with my homework, Homework support, Assistance for assignments, Help me with my studies, Homework help, Assist me with assignments, Support for schoolwork, Homework aid, Help for my assignments, Assignment assistance, Homework support",
       "answer": "I can certainly try to help you with your homework. Please provide me with specific questions or problems, and I'll do my best to assist you."
     },
     {
@@ -121,11 +121,11 @@
       "answer": "I'm a chatbot, I don't have feelings, but thanks for asking!"
     },
     {
-      "query": "What's your plan today?, your plan today, do you have any plan today, any plan today, What are you up to today?",
+      "query": "What's your plan today?, your plan today, do you have any plan today, any plan today, What are you up to today?, What's your schedule for today?, Any plans for today?",
       "answer": "As a chatbot, my main purpose is to assist and provide information. I'm always here to help you!"
     },
     {
-      "query": "Are you single?, Do you have a partner?, Are you in a relationship?",
+      "query": "Are you single?, Do you have a partner?, Are you in a relationship?, Are you dating someone?, dating someone, dating someone?, Do you have a boyfriend?, Do you have a girlfriend?, Do you have a spouse?, Are you married?",
       "answer": "As the Growth chatbot, I don't have personal relationships. My focus is on assisting users like you."
     },
     {
@@ -133,7 +133,7 @@
       "answer": "As the Growth chatbot, I don't have personal relationships. My purpose is to provide information and support."
     },
     {
-      "query": "Which movie do you like?, Do you have a favorite movie?",
+      "query": "Which movie do you like?, Do you have a favorite movie?, favorite movie, favorite movie?, favorite movie., Favorite movie, Favorite Movie",
       "answer": "As the Growth chatbot, I don't have personal preferences, including a favorite movie. However, I can provide movie recommendations based on your preferences."
     },
     {
@@ -141,7 +141,7 @@
       "answer": "As the Growth chatbot, I don't have personal preferences, including a favorite color, but my theme color is #269ed6 (Steel Blue)"
     },
     {
-      "query": "What's your favorite food?, favorite food, Do you have a favorite cuisine?",
+      "query": "What's your favorite food?, favorite food, Do you have a favorite cuisine?, favorite cuisine, favorite cuisine?, Favorite cuisine, Favorite Cuisine, favorite cuisines",
       "answer": "As the Growth chatbot, I don't have personal preferences when it comes to food. However, I can provide recommendations based on popular cuisines."
     },
     {
@@ -157,7 +157,7 @@
       "answer": "To improve your skills and achieve personal growth, consider setting specific goals, seeking learning opportunities, practicing regularly, seeking feedback from others, and staying persistent."
     },
     {
-      "query": "How can I stay motivated?, stay motivated, Any tips for staying motivated?",
+      "query": "How to stay motivated?, Ways to stay motivated, Staying motivated, Tips for motivation, Motivation techniques, Strategies for staying motivated, Staying motivated at work, Staying motivated in life, How to stay motivated in the face of challenges?, Motivation hacks, How to boost motivation?, Motivation for [specific goal or task], Staying motivated during [difficult situation or task], How to stay motivated and achieve your goals?, How to stay motivated when feeling demotivated?, Overcoming lack of motivation, Staying motivated on a daily basis, Finding motivation, Maintaining long-term motivation",
       "answer": "To stay motivated, it helps to set clear goals, break them down into smaller tasks, find inspiration, maintain a positive mindset, and celebrate your progress."
     },
     {

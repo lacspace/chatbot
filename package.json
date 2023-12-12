@@ -10,9 +10,10 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.4.0",
-    "gh-pages": "^5.0.0",
+    "git": "^0.1.5",
     "openai": "^3.3.0",
     "react": "^18.2.0",
+    "react-autolinker": "^1.0.7",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "react-type-animation": "^3.1.0",
@@ -21,7 +22,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
-    "start": "set PORT=2502 && react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -45,6 +46,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "sass": "^1.63.4"
   }
 }

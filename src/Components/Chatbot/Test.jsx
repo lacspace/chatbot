@@ -1,13 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
-import axios from 'axios';
 import { TypeAnimation } from 'react-type-animation';
 import ChatbotContainer from '../ChatbotContainer/ChatbotContainer';
 import chatData from '../Chats/Data.json';
 import sampleChat from '../Chats/ChatSample.json';
 import companyChat from '../Chats/CompanyChats.json';
-import ChatOptions from '../ChatOptions/ChatOptions';
-
 import './Style.scss';
+
+
 
 const Chatbot = () => {
 
@@ -15,18 +14,8 @@ const Chatbot = () => {
   const [userInput, setUserInput] = useState('');
   const [rememberedInfo, setRememberedInfo] = useState(null);
   const [rememberMode, setRememberMode] = useState(false);
-  const [chatOptionsEnabled, setChatOptionsEnabled] = useState(true); // State to track whether chat options are enabled or not
+  const [userQueries, setUserQueries] = useState([]);
   const chatContainerRef = useRef(null);
-
-  // Optional chatbot
-  const handleToggleChatOptions = () => {
-    setChatOptionsEnabled(!chatOptionsEnabled); // Toggle the chatOptionsEnabled state
-    if (!chatOptionsEnabled) {
-      // If chat options are disabled, clear chat messages and user input
-      setChatMessages([]);
-      setUserInput('');
-    }
-  };
 
   // Function to simulate typing effect and AI-like response delay
   const simulateTypingEffect = (message, delay) => {
@@ -37,12 +26,10 @@ const Chatbot = () => {
     });
   };
 
+  // Send message after getting input
   const handleSendMessage = async (event) => {
     event.preventDefault();
     const trimmedInput = userInput.trim();
-    if (chatOptionsEnabled) {
-      return;
-    }
     if (trimmedInput !== '') {
       // Check if the user wants the chatbot to remember something
       if (trimmedInput.toLowerCase().startsWith('remember')) {
@@ -112,85 +99,89 @@ const Chatbot = () => {
         scrollToBottomWithAnimation();
         // Generate chatbot response after a delay
         setTimeout(() => {
-          generateChatbotResponse(trimmedInput);
+          const matchingResponses = filterResponses(trimmedInput);
+          if (matchingResponses.length > 0) {
+            // If a matching response is found, create a new message object
+            // ... existing code ...
+          } else {
+            // If no matching response is found, handle fallback
+            handleFallback();
+          }
         }, 1500);
       }
-
-      // Function to call the ChatGPT API
-      const callChatGPTAPI = async (userInput) => {
-        try {
-          // Make the API call to ChatGPT
-          const response = await axios.post(
-            'https://api.openai.com/v1/chat/completions',
-            {
-              messages: [
-                {
-                  role: 'system',
-                  content: 'You are a chatbot that can help with various inquiries.',
-                },
-                {
-                  role: 'user',
-                  content: userInput,
-                },
-              ],
-            },
-            {
-              headers: {
-                Authorization: 'Bearer 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',
-              },
-            }
-          );
-
-          // Extract the chatbot's response from the API response
-          const chatbotResponse = response.data.choices[0].message.content;
-
-          // Create a new chatbot message
-          const chatbotMessage = {
-            user: false,
-            message: chatbotResponse,
-          };
-
-          // Update the chat messages with the chatbot's response
-          setChatMessages((prevMessages) => [...prevMessages, chatbotMessage]);
-
-          // Scroll to the bottom of the chat container
-          scrollToBottomWithAnimation();
-        } catch (error) {
-          console.error('Error sending message to ChatGPT API:', error);
-          // Handle errors, e.g., display an error message to the user
-        }
-      };
-
     }
   };
 
-  // Function to handle the selected sub-option and update the chat messages
-  const handleChatOptionSelect = (response) => {
-    // Create a new message object
-    const newMessage = {
-      user: false,
-      message: response,
-    };
-    // Add the new message to the chat messages
-    setChatMessages((prevMessages) => [...prevMessages, newMessage]);
+  // Random AI response
+  const generateRandomAIResponse = () => {
+    const aiResponses = [
+      "Hmm, interesting query! Let me think...",
+      "Oh, that's a great question!",
+      "Looks like you really need some help.",
+      "Impressive! Let me find the best answer for you.",
+      "You've got me thinking now!",
+      "I'm on it! One moment please.",
+      "Thanks for asking! I'm here to assist.",
+      "Let me put my knowledge to use!",
+    ];
+    return aiResponses[Math.floor(Math.random() * aiResponses.length)];
   };
 
+  // Suggestions for users
+  const suggestions = [
+    "Tell me about the stock market", 
+    "What services do you offer?", 
+    "Who is the CEO?", 
+    "What is the company's vision?"
+  ];
+
+  // Handle fallback or when not found any relative ans
+  const fallbackResponses = [
+    "I'm sorry, I didn't quite get that. Could you please rephrase your question?",
+    "Apologies, I'm still learning and might not understand some queries. Here are some popular topics you can ask about: [List of topics].",
+    "Hmm, I'm not sure what you mean. Let me know if you need information about stocks, market trends, or our company.",
+    "Sorry, but I'm programmed to provide information and assistance related to the stock market and our company, Growth Securities. If you have any queries or need guidance in these areas, please feel free to ask. Otherwise, please type another related word or rephrase your question.",
+  ];
+  
+  const handleFallback = () => {
+    const randomResponse = fallbackResponses[Math.floor(Math.random() * fallbackResponses.length)];
+    const fallbackMessage = {
+      user: false,
+      message: randomResponse,
+    };
+    setChatMessages((prevMessages) => [...prevMessages, fallbackMessage]);
+  
+    // Optionally, you can also provide suggestions after multiple queries without a match
+    if (userQueries.length >= 2) {
+      const suggestion = suggestions[Math.floor(Math.random() * suggestions.length)];
+      const suggestionMessage = {
+        user: false,
+        message: `It seems like you're looking for information related to "${userInput}". Why not try asking something like: "${suggestion}"`,
+      };
+      setChatMessages((prevMessages) => [...prevMessages, suggestionMessage]);
+    }
+  };
+
+  // Helper function to generate a random delay for AI responses
+  const getRandomDelay = () => Math.floor(Math.random() * 500) + 500; // Random delay between 500ms to 1000ms
+
   // Generate a response from the chatbot
-  // ... (previous code)
-
-
   const generateChatbotResponse = async (userMessage) => {
     const matchingResponses = filterResponses(userMessage);
 
     if (matchingResponses.length > 0) {
       // If a matching response is found, create a new message object
       const matchedResponse = matchingResponses[0];
+      const randomAIResponse = generateRandomAIResponse();
       const newMessage = {
         user: false,
-        message: matchedResponse.answer,
+        message: `${randomAIResponse} ${matchedResponse.answer}`,
       };
-      // Add the new message to the chat messages
-      setChatMessages((prevMessages) => [...prevMessages, newMessage]);
+      // Add the new message to the chat messages with a random delay
+      setTimeout(() => {
+        setChatMessages((prevMessages) => [...prevMessages, newMessage]);
+      }, getRandomDelay());
+
     } else if (userMessage.toLowerCase().includes('current time')) {
       // If the user asks for the current time, generate a response with the current time
       const currentTime = new Date().toLocaleTimeString();
@@ -239,13 +230,14 @@ const Chatbot = () => {
         }
       } catch (error) {
         // If there is an error in evaluating the expression, provide a default message
-        const defaultMessage = {
-          user: false,
-          message: "Sorry, but I'm programmed to provide information and assistance related to the stock market and our company, Growth Securities. If you have any queries or need guidance in these areas, please feel free to ask. Otherwise, please type another related word or rephrase your question.",
-        };
+        // const defaultMessage = {
+        //   user: false,
+        //   message: "Sorry, but I'm programmed to provide information and assistance related to the stock market and our company, Growth Securities. If you have any queries or need guidance in these areas, please feel free to ask. Otherwise, please type another related word or rephrase your question.",
+        // };
 
+        handleFallback();
         // Add the default message to the chat messages
-        setChatMessages((prevMessages) => [...prevMessages, defaultMessage]);
+        // setChatMessages((prevMessages) => [...prevMessages, defaultMessage]);
       }
     }
 
@@ -258,17 +250,26 @@ const Chatbot = () => {
       "I'm learning every day to be more helpful!",
       "Great! How can I assist you further?",
       "You got it! I'm here to answer your questions.",
+      "Investing in knowledge pays the best interest.",
+      "The more you learn, the more confident you become in your decisions.",
+      "In the realm of knowledge, there's no such thing as too much!",
+      "Learning is a treasure that will follow you wherever you go.",
+      "Knowledge empowers us to reach new heights.",
     ];
 
-    const aiResponse = await simulateTypingEffect(aiResponses[Math.floor(Math.random() * aiResponses.length)], 800);
+    const randomAIResponse = aiResponses[Math.floor(Math.random() * aiResponses.length)];
     const aiMessage = {
       user: false,
-      message: aiResponse,
+      message: randomAIResponse,
     };
 
-    setChatMessages((prevMessages) => [...prevMessages, aiMessage]);
 
-    // Check for stock market related interactions and add funny quotes, emojis, or appreciation
+    // Add the AI-like response to the chat messages with a random delay
+    setTimeout(() => {
+      setChatMessages((prevMessages) => [...prevMessages, aiMessage]);
+    }, getRandomDelay());
+
+    // Check for stock market related interactions and add funny quotes or appreciation
     if (userMessage.toLowerCase().includes('stock') || userMessage.toLowerCase().includes('market')) {
       const stockResponses = [
         "Stock market is fascinating, isn't it?",
@@ -277,6 +278,12 @@ const Chatbot = () => {
         "I wish I could invest in humor, it would never go down.",
         "Let's stock up some knowledge!",
         "In the stock market, the only thing that goes up and down is your heartbeat.",
+        "The stock market can be as unpredictable as the weather, but with the right knowledge, you can navigate its twists and turns.",
+        "Did you know that some investors follow the 'buy low, sell high' strategy? It's a classic mantra in the stock market!",
+        "In the world of stocks, diversification is like having a safety net. Spreading your investments can reduce risks.",
+        "Investing in the stock market is like a journey. Sometimes you need to weather the storm to reach your destination.",
+        "Remember, it's not just about the numbers in the stock market; it's also about understanding the companies behind the stocks.",
+        "The stock market is full of stories of rags to riches and vice versa. It's a roller-coaster of emotions and opportunities.",
       ];
 
       const stockResponse = await simulateTypingEffect(stockResponses[Math.floor(Math.random() * stockResponses.length)], 1200);
@@ -286,53 +293,8 @@ const Chatbot = () => {
       };
 
       setChatMessages((prevMessages) => [...prevMessages, stockMessage]);
-    } else if (userMessage.toLowerCase().includes('thank') || userMessage.toLowerCase().includes('appreciate')) {
-      const appreciationResponses = [
-        "You're welcome! 😊",
-        "Glad I could help!",
-        "Always here to assist you.",
-        "It's my pleasure to be of service.",
-        "Thank you for your kind words!",
-      ];
-
-      const appreciationResponse = await simulateTypingEffect(appreciationResponses[Math.floor(Math.random() * appreciationResponses.length)], 1200);
-      const appreciationMessage = {
-        user: false,
-        message: appreciationResponse,
-      };
-
-      setChatMessages((prevMessages) => [...prevMessages, appreciationMessage]);
     }
-
-    // Add funny and engaging responses with emojis
-    const emojis = ["😄", "😃", "😆", "🤣", "😂", "😊", "😉", "🙂", "🤗", "😎"];
-    const funnyResponses = [
-      "Haha, that's a good one!",
-      "LOL! You crack me up!",
-      "You're hilarious! 😄",
-      "I'm ROFLing right now! 😂",
-      "Good one! Keep 'em coming!",
-      "You've got a great sense of humor!",
-      "Hahaha! I'm rolling on the floor!",
-      "That's a knee-slapper!",
-    ];
-
-    const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
-    const randomFunnyResponse = funnyResponses[Math.floor(Math.random() * funnyResponses.length)];
-    const funnyMessage = {
-      user: false,
-      message: `${randomEmoji} ${randomFunnyResponse}`,
-    };
-
-    setChatMessages((prevMessages) => [...prevMessages, funnyMessage]);
   };
-
-
-
-
-
-
-
 
   // Helper function to evaluate complex math expressions
   const evaluateMathExpression = (expression) => {
@@ -340,9 +302,6 @@ const Chatbot = () => {
     // For this example, I'll use the built-in 'eval()' function
     return eval(expression);
   };
-
-
-
 
   // Filter the responses based on user input
   const filterResponses = (userMessage) => {
@@ -395,9 +354,6 @@ const Chatbot = () => {
     return matchingResponses;
   };
 
-
-
-
   // Handler for updating user input
   const handleChangeUserInput = (event) => {
     setUserInput(event.target.value);
@@ -427,6 +383,14 @@ const Chatbot = () => {
     }
   };
 
+  // Update userQueries whenever a new user message is sent
+  // useEffect(() => {
+  //   if (userInput.trim() !== '') {
+  //     setUserQueries((prevQueries) => [...prevQueries, userInput.trim()]);
+  //   }
+  // }, [userInput]);
+
+  // Remembered information clearlification
   useEffect(() => {
     const clearRememberedInfo = () => {
       setRememberedInfo(null);
@@ -463,45 +427,32 @@ const Chatbot = () => {
 
   // Render the Chatbot component
   return (
-    <>
-      <div className="wrapper centerBody">
-        <div className="centerBot">
-          <div className="typer">
-            <TypeAnimation
-              sequence={[
-                "Welcome to our Growth chatbot! I'm San, your vertual assistant. How can I assist you today? Feel free to ask any questions or seek guidance on your journey! 😊"
-              ]}
-              wrapper="div"
-              cursor={false}
-              repeat={true}
-              style={{
-                color: "#269ed6",
-                fontSize: "14px",
-              }}
-            />
-          </div>
-          <button onClick={handleToggleChatOptions} className='chatbotOption'>
-            {chatOptionsEnabled ? (
-              <span className="chatbotOptionText animated">Enable Typing <i className="fa fa-keyboard-o"></i></span>
-            ) : (
-              <span className="chatbotOptionText">Enable Option <i className="fa fa-gear fa-spin"></i></span>
-            )}
-          </button>
-          <hr width="100%" />
-          {chatOptionsEnabled ? (
-            <ChatOptions handleChatOptionSelect={handleChatOptionSelect} />
-          ) : null}
-          <ChatbotContainer
-            chatMessages={chatMessages}
-            userInput={userInput}
-            handleChangeUserInput={handleChangeUserInput}
-            handleSendMessage={handleSendMessage}
-            chatContainerRef={chatContainerRef}
-            chatOptionsEnabled={chatOptionsEnabled}
+    <div className="wrapper centerBody">
+      <div className="centerBot">
+        <div className="typer">
+          <TypeAnimation
+            sequence={[
+              "Welcome to our Growth chatbot! How can I assist you today? Feel free to ask any questions or seek guidance on your journey! 😊"
+            ]}
+            wrapper="div"
+            cursor={false}
+            repeat={true}
+            style={{
+              color: "#269ed6",
+              fontSize: "14px",
+            }}
           />
         </div>
+        <hr width="100%" />
+        <ChatbotContainer
+          chatMessages={chatMessages}
+          userInput={userInput}
+          handleChangeUserInput={handleChangeUserInput}
+          handleSendMessage={handleSendMessage}
+          chatContainerRef={chatContainerRef}
+        />
       </div>
-    </>
+    </div>
   );
 };
 

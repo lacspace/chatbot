@@ -5,18 +5,12 @@ $light-dark-clr: #434449;
 $title-font-size: 3rem;
 $fontFamily: "Poppins";
 
-
-// *** Styling Start 
+// *** Styling Start
 .centerBody {
   overflow: hidden;
   display: flex;
   justify-content: center;
-}
-.centerBot {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 100vh;
 }
 
 // *** Greeting Typer Style
@@ -27,6 +21,42 @@ $fontFamily: "Poppins";
   background: #000;
   border-radius: 10px;
 }
+
+/* CSS for the button */
+.chatbotOption {
+  background: transparent;
+  display: flex;
+  margin: 10px 14px;
+  border-radius: 5px;
+  float: left;
+  padding: 8px 10px;
+  cursor: pointer;
+  border: #eee;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 23px;
+    margin-top: -9px;
+    border-radius: 5px;
+
+    animation: 2s infinite forwards activeAnime;
+  }
+
+  &:active {
+    background: $main-clr;
+    color: #fff;
+  }
+}
+
+/* CSS for the animation */
 
 .icon {
   margin: 0;
@@ -45,7 +75,7 @@ $fontFamily: "Poppins";
   background-size: cover;
   background-position: cover;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  // box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -59,7 +89,7 @@ $fontFamily: "Poppins";
 
   .chat-message {
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-radius: 5px;
     animation: fadeInUp 0.5s ease-in-out;
 
@@ -67,8 +97,8 @@ $fontFamily: "Poppins";
     .chatbot-message {
       display: flex;
       align-items: center;
-      
-      span {
+
+      .msgSpan {
         padding: 7px;
         border-radius: 10px;
         color: #fff;
@@ -79,16 +109,14 @@ $fontFamily: "Poppins";
     .user-message {
       justify-content: flex-start;
       position: relative;
-      
-      span {
+
+      .msgSpan {
         border: 1px solid #eee;
         color: $main-clr;
         font-size: 14px;
         font-family: "Poppins";
-        // background: $mainLight-clr;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 
-      
         &::before {
           content: "";
           position: absolute;
@@ -111,7 +139,7 @@ $fontFamily: "Poppins";
       position: relative;
       font-family: "Poppins";
 
-      span {
+      .msgSpan {
         border: 1px solid #eee;
         background-color: rgb(255, 255, 255);
         color: #000;
@@ -129,6 +157,16 @@ $fontFamily: "Poppins";
           border-width: 8px 8px 8px 0;
           border-color: transparent $main-clr transparent transparent;
           transform: translateY(-50%);
+        }
+
+        a {
+          transition: 0.3s ease-in-out;
+
+          &:hover {
+            background: $main-clr;
+            color: white !important;
+            text-decoration: none;
+          }
         }
       }
       .icon {
@@ -176,7 +214,7 @@ $fontFamily: "Poppins";
     border: none;
     outline: none;
     background: transparent;
-    
+
     &:hover {
       cursor: pointer;
     }
@@ -184,7 +222,6 @@ $fontFamily: "Poppins";
     span {
       color: $main-clr;
       font-size: 2rem;
-
     }
 
     &:active span {
@@ -205,7 +242,7 @@ $fontFamily: "Poppins";
   }
 }
 
-// *** Slide Style 
+// *** Slide Style
 ::-webkit-scrollbar {
   width: 7px;
 }
@@ -243,6 +280,149 @@ $fontFamily: "Poppins";
 
       &:hover {
         background-color: #aaa;
+      }
+    }
+  }
+}
+
+
+/* General styling for chat options */
+.chat-options {
+  width: 100%;
+  height: 100vh;
+  overflow-x: scroll;
+  padding: 0 30px;
+  display: block;
+  justify-content: left;
+  background: #fff;
+
+  /* Main options section */
+  #main-options-section {
+    h3 {
+      margin-bottom: 10px;
+      color: #333;
+      font-size: 1.2rem;
+    }
+
+    /* Styling for each option */
+    .option {
+      padding: 5px 0;
+
+      /* Button styles */
+      button {
+        padding: 8px 16px;
+        color: #000;
+        border: 1px solid #ccc;
+        background: transparent;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+
+        /* Hover effect */
+        &:hover {
+          background-color: #3498db;
+        }
+
+        /* Active effect */
+        &:active {
+          background-color: #1f618d;
+        }
+
+        /* Disabled effect */
+        &:disabled {
+          background-color: #ccc;
+          cursor: not-allowed;
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+
+  /* Sub options section */
+  #sub-options-section {
+    /* Styling for selected main option */
+    .selected-main-option {
+      h3 {
+        color: #000;
+      }
+
+      /* Styling for sub-options */
+      .sub-options {
+        padding-top: 10px;
+
+        /* Button styles */
+        button {
+          margin-top: 14px;
+          padding: 8px 16px;
+          color: #000;
+          border: 1px solid #ccc;
+          background: transparent;
+          border-radius: 8px;
+          cursor: pointer;
+          transition: background-color 0.3s ease-in-out;
+
+          /* Hover effect */
+          &:hover {
+            background-color: #3498db;
+          }
+
+          /* Disabled effect */
+          &:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+          }
+        }
+
+        .homeIcon {
+          color: $main-clr;
+
+          &:hover {
+            color: #000;
+          }
+        }
+      }
+    }
+  }
+
+  /* Info section */
+  #info-section {
+    padding-left: 5%;
+
+    /* Styling for last info section */
+    .info-sectionLast {
+      button {
+        padding: 8px 16px;
+        color: $main-clr;
+        border: 1px solid #eee;
+        background: transparent;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+        margin-right: 5px;
+
+        /* Hover effect */
+        &:hover {
+          background-color: $main-clr;
+          color: #fff;
+        }
+
+        /* Disabled effect */
+        &:disabled {
+          background: #ccc;
+          cursor: not-allowed;
+        }
+      }
+
+      h3 {
+        color: #000;
+      }
+
+      /* Styling for last answer */
+      .lastAns {
+        padding: 7px;
+        border: 1px solid #eee;
+        border-radius: 10px;
+        background: #f0f0f0;
       }
     }
   }
